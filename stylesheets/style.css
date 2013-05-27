@@ -16,6 +16,10 @@ body {
   body, body * {
     -webkit-font-smoothing: antialiased; }
 
+center.hello {
+	font-size: 140%;
+	line-height: 160%;
+}
 #go-back-home {
   margin: 40px 0 0; }
   #go-back-home:hover {
