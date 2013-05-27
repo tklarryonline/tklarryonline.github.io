@@ -9,8 +9,8 @@ body {
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 19px;
+  font-size: 100%;
+  line-height: 140%;
   padding: 0;
   margin: 0; }
   body, body * {
@@ -21,7 +21,7 @@ center.hello {
 	line-height: 160%;
 }
 #go-back-home {
-  margin: 40px 0 0; }
+  margin: 15px 0 0; }
   #go-back-home:hover {
     background-image: none; }
 
@@ -94,7 +94,7 @@ footer {
   width: 100%;
   max-width: 600px;
   background: #fff;
-  margin: 40px auto 20px;
+  margin: 20px auto 20px;
   border-radius: 7px;
   border: 1px solid #eee;
   position: relative; }
@@ -249,7 +249,7 @@ section.post {
     text-transform: uppercase;
     text-align: center;
     line-height: 1.5em;
-    margin-bottom: 60px; }
+    margin-bottom: 35px; }
     section.post h1 .date {
       color: #d0d0d0;
       font-size: 10px; }
