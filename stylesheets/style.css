@@ -98,7 +98,11 @@ color: #797979; }
 	margin: 20px auto 20px;
 	border-radius: 7px;
 	border: 1px solid #eee;
-position: relative; }
+	position: relative; 
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 1px 1px rgba(0, 0, 0, 0.2);
+}
 #container:before, #container:after {
 	content: " ";
 display: table; }
