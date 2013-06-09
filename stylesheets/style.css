@@ -5,7 +5,7 @@ html,body
 
 h1,h2,h3,h4,h5,strong,b
 {
-	font-weight:600;
+	font-weight:700;
 }
 
 body
@@ -27,13 +27,15 @@ body,body *
 
 center.hello
 {
-	font-size:140%;
+	font-size: 140%;
 	line-height:160%;
 }
 
 #go-back-home
 {
 	margin:15px 0 0;
+	background: none;
+	border: none;
 }
 
 #go-back-home:hover
@@ -227,16 +229,18 @@ footer *
 a,.as-link
 {
 	text-decoration:none;
-	color:#537482;
-	line-height:1.4em;
+	color: #586e75;
+	background-color: #fdf6e3;
+	padding: 2px 4px 0px;
 	zoom:1;
 	display:inline-block;
 	vertical-align:auto;
-	-webkit-transition:all .25s;
-	-moz-transition:all .25s;
-	-ms-transition:all .25s;
-	-o-transition:all .25s;
-	transition:all .25s;
+	border-bottom: 1px solid #eee8d5;
+	-webkit-transition:	all .25s ease-out;
+	-moz-transition:	all .25s ease-out;
+	-ms-transition:		all .25s ease-out;
+	-o-transition:		all .25s ease-out;
+	transition:			all .25s ease-out;
 }
 
 a.main {
@@ -264,10 +268,8 @@ a.main.cyan:hover {
 
 a:hover,.as-link.main,.as-link:hover
 {
-	color:#354a53;
-	background-image:url(/images/line.png);
-	background-repeat:repeat-x;
-	background-position:left bottom;
+	color: #fff;
+	background-color: #586e75;
 }
 
 a.big-button,.as-link.big-button
