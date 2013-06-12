@@ -243,6 +243,13 @@ a,.as-link
 	transition:			all .25s ease-out;
 }
 
+a:hover,.as-link.main,.as-link:hover
+{
+	color: #fff;
+	background-color: #586e75;
+	border-bottom: 1px solid #073642;
+}
+
 a.main {
 	color: #354a53;
 	padding: 2px 7px !important;
@@ -264,12 +271,6 @@ a.main.cyan {
 a.main.cyan:hover {
 	background: #33cccc;
 	color: white;
-}
-
-a:hover,.as-link.main,.as-link:hover
-{
-	color: #fff;
-	background-color: #586e75;
 }
 
 a.big-button,.as-link.big-button
