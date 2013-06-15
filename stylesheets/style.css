@@ -52,9 +52,9 @@ header a
 header strong
 {
 	background: #2aa198 url('../images/tk.png') no-repeat center center;
-	border-radius: 45px;
-	height: 90px;
-	width: 90px;
+	border-radius: 44px;
+	height: 88px;
+	width: 88px;
 	display: inline-block;
 	margin-bottom: .5em;
 	overflow: hidden;
@@ -64,6 +64,7 @@ header strong
 header em
 {
 	display: block;
+	font-size: 90%;
 }
 
 #go-back-home
