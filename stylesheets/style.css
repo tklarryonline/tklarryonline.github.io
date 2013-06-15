@@ -25,10 +25,45 @@ body,body *
 	-webkit-font-smoothing:antialiased;
 }
 
-center.hello
+/* Animation */
+.animated
 {
-	font-size: 140%;
-	line-height:160%;
+	-webkit-animation-duration: .5s;
+	-webkit-animation-fill-mode: both;
+	animation-duration: .5s;
+	animation-fill-mode: both;
+}
+
+/* Header */
+
+header
+{
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header a
+{
+	display: inline-block;
+}
+
+header strong
+{
+	background: #2aa198 url('../images/tk.png') no-repeat center center;
+	border-radius: 45px;
+	height: 90px;
+	width: 90px;
+	display: inline-block;
+	margin-bottom: .5em;
+	overflow: hidden;
+	color: #2aa198;
+}
+
+header em
+{
+	display: block;
 }
 
 #go-back-home
@@ -36,11 +71,22 @@ center.hello
 	margin:15px 0 0;
 	background: none;
 	border: none;
+	-webkit-animation-delay: .25s;
+	-webkit-animation-name: down;
+	animation-delay: .25s;
+	animation-name: down;
 }
 
 #go-back-home:hover
 {
 	background-image:none;
+	color: #2aa198;
+}
+
+center.hello
+{
+	font-size: 140%;
+	line-height:160%;
 }
 
 .capitalize
@@ -75,7 +121,7 @@ center.hello
 
 .small
 {
-	font-size:11px;
+	font-size: 70%;
 }
 
 .pull-left
