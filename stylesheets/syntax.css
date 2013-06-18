@@ -1,4 +1,4 @@
-.highlight, .highlight code, .highlight pre  { background: #29281e; }
+.highlight, .highlight code, .highlight pre  { background: #29281e; overflow: hidden; }
 .highlight code { padding: 0; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */

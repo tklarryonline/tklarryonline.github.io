@@ -6,12 +6,14 @@ html,body
 body
 {
 	background:#002b36;
+	width: 100%;
+	max-width: 640px;
 	color:#586e75;
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:400;
 	font-size:100%;
 	line-height:140%;
-	margin:0;
+	margin: 0 auto;
 	padding:0;
 }
 
@@ -123,7 +125,7 @@ header a
 	display: inline-block;
 }
 
-header strong
+strong#logo
 {
 	background: #2aa198 url('../images/tk.png') no-repeat center center;
 	border-radius: 44px;
@@ -164,6 +166,24 @@ center.hello
 	line-height:160%;
 }
 
+/* Error 404 */
+center#not-found
+{
+	color: #93a1a1;
+}
+
+center#not-found strong
+{
+	color: #2aa198;
+	border: 3px solid #2aa198;
+	border-radius: 82px;
+	display: block;
+	width: 158px;
+	padding: 68px 0;
+	font-size: 35px;
+	font-weight: 400;
+}
+
 ol,ol li
 {
 	margin:0;
@@ -198,8 +218,6 @@ footer *
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
-	width:100%;
-	max-width: 640px;
 	background:#ffffff;
 	border-radius:7px;
 	border:1px solid #eee;
@@ -207,7 +225,7 @@ footer *
 	-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	box-shadow:0 1px 1px rgba(0,0,0,0.2);
-	margin:20px auto;
+	margin: 20px 0;
 }
 
 #container:before,#container:after
@@ -482,8 +500,8 @@ section.post iframe,section.post img
 
 section.post,section > p
 {
-	font-size:100%;
-	line-height:1.6em;
+	font-size: 100%;
+	line-height: 165%;
 }
 
 section.post blockquote,section > p blockquote
@@ -531,7 +549,7 @@ section.post blockquote:before,section.post blockquote:after,section > p blockqu
 	bottom:0;
 	line-height:.4em;
 	word-break:break-all;
-	color:#d0dfda;
+	color: #2aa198;
 	display:block;
 	width:7px!important;
 	white-space:normal;
@@ -591,12 +609,12 @@ code
 
 .paging .left
 {
-	margin-left:-340px;
+	margin-left: -351px;
 }
 
 .paging .right
 {
-	margin-left:320px;
+	margin-left: 325px;
 }
 
 section.post *,section > p *,section.post img,section > p img
