@@ -467,3 +467,15 @@ a
 {
     background: url('../images/face2.png') no-repeat 110% -202px;
 }
+
+
+/* Access */
+#access-quote .quote .face.left {
+    background: url('../images/face3.png') no-repeat 0% -125px;
+}
+
+
+/* Future labs */
+#future-lab-quote .quote .face.right {
+    background: url('../images/face4.png') no-repeat 110% -123px;
+}
