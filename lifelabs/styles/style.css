@@ -146,7 +146,13 @@ a
     padding-top: 0;
     padding-bottom: 0;
     height: auto;
+    text-align: center;
 }
+
+    .content .img
+    {
+        margin-top: 63px;
+    }
 
     .content .action-button
     {
@@ -156,6 +162,7 @@ a
         margin: 30px auto 40px;
         text-transform: uppercase;
         font: 500 20px 'Open Sans', sans-serif;
+        border-top: 1px solid #ccc;
     }
 
         .content .action-button a
@@ -491,9 +498,54 @@ a
     background: url('../images/face3.png') no-repeat 0% -125px;
 }
 
+#access
+{
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+    #access .lines
+    {
+        background-color: #e8e8e8;
+    }
+
+    #access .desc
+    {
+        text-align: center;
+    }
+
+    #access .img img
+    {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+    }
 
 /* Future labs */
 #future-lab-quote .quote .face.right
 {
     background: url('../images/face4.png') no-repeat 110% -123px;
+}
+
+#future-lab
+{
+    width: 100%;
+    background-color: #e8e8e8;
+}
+
+    #future-lab .lines
+    {
+        background-color: #e8e8e8;
+    }
+
+#future-lab .img img
+{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+    width: 884px;
+}
+
+/* Contacts */
+#contact {
+    background-color: #181c1e;
+    width: 100%;
 }
