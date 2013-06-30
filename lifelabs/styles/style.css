@@ -1,2 +1,132 @@
-﻿body {
+﻿/* Basic */
+div.wrapper
+{
+    width: 960px;
+    margin: 0 auto;
 }
+
+a
+{
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+/* Navigation Bar */
+#logo
+{
+    float: left;
+    margin-right: 53px;
+}
+
+#nav-bar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto !important;
+    min-height: 100px;
+    background-color: #1a1e21;
+}
+
+    #nav-bar > .wrapper
+    {
+        width: 940px;
+        overflow: hidden;
+        padding-top: 25px;
+        margin: 0 auto;
+    }
+
+    #nav-bar a
+    {
+        color: #ccc !important;
+        text-decoration: none;
+        font: 400 16px "Open Sans", sans-serif;
+        display: block;
+        height: 100%;
+    }
+
+    #nav-bar .menu
+    {
+        float: left;
+        margin: 0;
+        padding: 0px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+        #nav-bar .menu li
+        {
+            cursor: pointer;
+            float: left;
+            padding-top: 35px;
+            margin-bottom: 0px;
+            margin-right: 30px;
+            height: 50px;
+            border-bottom: 5px solid #1a1e21;
+        }
+
+            #nav-bar .menu li:hover
+            {
+                -moz-transition: border .25s ease-out;
+                -o-transition: border .25s ease-out;
+                -webkit-transition: border .25s ease-out;
+                transition: border .25s ease-out;
+            }
+
+            #nav-bar .menu li.purple:hover
+            {
+                color: #805e9c;
+                border-bottom: 5px solid #805e9c;
+            }
+
+                #nav-bar .menu li.purple:hover a
+                {
+                    color: #805e9c !important;
+                }
+
+            #nav-bar .menu li.green:hover
+            {
+                color: #88a73c;
+                border-bottom: 5px solid #88a73c;
+            }
+
+                #nav-bar .menu li.green:hover a
+                {
+                    color: #88a73c !important;
+                }
+
+            #nav-bar .menu li.red:hover
+            {
+                color: #c72d29;
+                border-bottom: 5px solid #c72d29;
+            }
+
+                #nav-bar .menu li.red:hover a
+                {
+                    color: #c72d29 !important;
+                }
+
+            #nav-bar .menu li.blue:hover
+            {
+                color: #55b6ce;
+                border-bottom: 5px solid #55b6ce;
+            }
+
+                #nav-bar .menu li.blue:hover a
+                {
+                    color: #55b6ce !important;
+                }
+
+            #nav-bar .menu li.grey:hover
+            {
+                color: #616161;
+                border-bottom: 5px solid #616161;
+            }
+
+                #nav-bar .menu li.grey:hover a
+                {
+                    color: #616161 !important;
+                }
