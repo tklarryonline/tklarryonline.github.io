@@ -449,7 +449,7 @@ a
 #welcome
 {
     width: 100%;
-    background: #e8e8e8;
+    background-color: #e8e8e8;
 }
 
     #welcome .lines
@@ -468,14 +468,32 @@ a
     background: url('../images/face2.png') no-repeat 110% -202px;
 }
 
+#invest
+{
+    width: 100%;
+    background-color: #1a1e21;
+}
+
+    #invest .lines
+    {
+        background-color: #1a1e21;
+    }
+
+    #invest .desc
+    {
+        text-align: center;
+        color: #999;
+    }
 
 /* Access */
-#access-quote .quote .face.left {
+#access-quote .quote .face.left
+{
     background: url('../images/face3.png') no-repeat 0% -125px;
 }
 
 
 /* Future labs */
-#future-lab-quote .quote .face.right {
+#future-lab-quote .quote .face.right
+{
     background: url('../images/face4.png') no-repeat 110% -123px;
 }
