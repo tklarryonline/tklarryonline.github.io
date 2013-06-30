@@ -14,6 +14,17 @@ a
     cursor: pointer;
 }
 
+.face
+{
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
 /* Navigation Bar */
 #logo
 {
@@ -23,7 +34,7 @@ a
 
 #nav-bar
 {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -147,7 +158,7 @@ a
 {
     background: #333333;
     position: relative;
-    z-index: 2;
+    z-index: 998;
 }
 
     .singtel ul
@@ -186,7 +197,17 @@ a
     .social li
     {
         cursor: pointer;
+        width: 39px;
+        height: 39px;
     }
+
+        .social li:hover
+        {
+            -moz-transition: all 0.25s ease-out;
+            -o-transition: all 0.25s ease-out;
+            -webkit-transition: all 0.25s ease-out;
+            transition: all 0.25s ease-out;
+        }
 
 #facebook
 {
@@ -227,3 +248,53 @@ a
     {
         background: url('../images/Twiter-Icon-hover.png') no-repeat;
     }
+
+.banner-bg
+{
+    background-image: url('../images/banner-bg.jpg');
+}
+
+#intro .intro-quote
+{
+    min-height: 410px;
+    height: 410px;
+    z-index: 0;
+    display: block;
+}
+
+    #intro .intro-quote .banner-bg
+    {
+        background-position: 0 -268.1px;
+        background-repeat: initial;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        z-index: 2 !important;
+        width: 100%;
+        height: 100%;
+    }
+
+    #intro .intro-quote .face.left
+    {
+        background: url('../images/face1.png') no-repeat 0 87.5px;
+    }
+
+    #intro .intro-quote .text
+    {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        z-index: 5;
+        display: table;
+        -webkit-text-shadow: 3px 3px 5px #333;
+        text-shadow: 3px 3px 5px #333;
+    }
+
+        #intro .intro-quote .text p
+        {
+            display: table-cell;
+            vertical-align: middle;
+            color: #f1f1f1;
+            font: 600 45px 'Open Sans', sans-serif;
+        }
