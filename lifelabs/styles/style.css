@@ -1,4 +1,8 @@
 ﻿/* Basic */
+body {
+    -webkit-text-stroke: 0.5px;
+}
+
 a
 {
     -moz-transition: all .25s ease-out;
@@ -218,7 +222,7 @@ a
     .desc > p
     {
         margin-top: 34px;
-        font: 400 18px 'Open Sans', sans-serif;
+        font: 300 18px 'Open Sans', sans-serif;
         line-height: 24px !important;
     }
 
