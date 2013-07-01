@@ -91,6 +91,10 @@ a
         height: 100%;
     }
 
+.banner-bg
+{
+    background-image: url('../images/banner-bg.jpg');
+}
 
 /* Jagged edgy */
 .jagged-edge
@@ -442,10 +446,6 @@ a
         background: url('../images/Twiter-Icon-hover.png') no-repeat;
     }
 
-.banner-bg
-{
-    background-image: url('../images/banner-bg.jpg');
-}
 
 #intro .quote .face.left
 {
@@ -537,16 +537,116 @@ a
         background-color: #e8e8e8;
     }
 
-#future-lab .img img
+    #future-lab .img img
+    {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        width: 884px;
+    }
+
+/* Map */
+#map .banner-bg
 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 30px;
-    width: 884px;
+    background-image: url('../images/map.jpg');
 }
 
 /* Contacts */
-#contact {
+#contact
+{
     background-color: #181c1e;
     width: 100%;
+    padding: 45px 0;
+    text-align: left !important;
 }
 
+    #contact .head
+    {
+        color: #e8e8e8;
+    }
+
+    #contact .contact-info
+    {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        border-bottom: 1px solid #3e3e3e;
+    }
+
+        #contact .contact-info .four.column
+        {
+            width: 25%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    #contact .four.column p
+    {
+        color: #e8e8e8;
+        font: 400 12px 'Source Sans Pro', sans-serif;
+        line-height: 10px;
+        width: 150px;
+    }
+
+        #contact .four.column p.grey
+        {
+            color: #616161 !important;
+        }
+
+        #contact .four.column p.head
+        {
+            font: 600 14px 'Open Sans', sans-serif;
+            text-transform: uppercase;
+        }
+
+    #contact .four.column li
+    {
+        color: #d3d7d8;
+        line-height: 3px;
+    }
+
+        #contact .four.column li .blue
+        {
+            cursor: pointer;
+        }
+
+        #contact .four.column li .bold
+        {
+            font-weight: 700;
+        }
+
+        #contact .four.column li p
+        {
+            line-height: 14px;
+            margin-bottom: 5px;
+        }
+
+            #contact .four.column li p.time
+            {
+                color: #4e4e4e;
+                font-size: 11px;
+                margin: 2px 0;
+            }
+
+    #contact .presented-by
+    {
+        margin-top: 1px;
+        position: relative;
+    }
+
+        #contact .presented-by .head
+        {
+            margin: 10px 2px;
+            font-size: 16px;
+        }
+
+        #contact .presented-by li
+        {
+            float: left;
+            width: 160px;
+            height: 116px;
+            margin: 0 2px;
+            background-color: #242424;
+            text-align: center;
+            line-height: 110px;
+            cursor: pointer;
+        }
