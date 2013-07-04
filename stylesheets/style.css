@@ -448,9 +448,18 @@ ul.posts .datetime
 	width:130px;
 	text-transform:uppercase;
 	float:right;
-	color:#999;
+	color: #b1b1b1;
 	font-size:10px;
 	text-align:right;
+	-webkit-transition:	all .25s ease-out;
+	-moz-transition:	all .25s ease-out;
+	-ms-transition:		all .25s ease-out;
+	-o-transition:		all .25s ease-out;
+	transition:			all .25s ease-out;
+}
+
+ul.posts li:hover .datetime {
+	color: #777;
 }
 
 section.post
