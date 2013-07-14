@@ -1,3 +1,22 @@
+/* Solarized colors {{{ */
+$base03:	#002b36;
+$base02:	#073642;
+$base01:	#586e75;
+$base00:	#657b83;
+$base0:		#839496;
+$base1:		#93a1a1;
+$base2:		#eee8d5;
+$base3:		#fdf6e3;
+$yellow:	#b58900;
+$orange:	#cb4b16;
+$red:		#dc322f;
+$magenta:	#d33682;
+$violet:	#6c71c4;
+$blue:		#268bd2;
+$cyan:		#2aa198;
+$green:		#859900;
+/* }}} */
+
 html,body
 {
 	height:100%;
@@ -5,10 +24,10 @@ html,body
 
 body
 {
-	background:#002b36;
+	background:$base03;
 	width: 100%;
 	max-width: 640px;
-	color:#586e75;
+	color:$base01;
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:400;
 	font-size:100%;
@@ -117,29 +136,27 @@ header
 	max-width: 600px;
 	margin: 0 auto;
 	text-align: center;
-}
 
-header a
-{
-	display: inline-block;
+	a {
+		display: inline-block;
+	}
+
+	em {
+		display: block;
+		font-size: 90%;
+	}
 }
 
 strong#logo
 {
-	background: #2aa198 url('../images/tk.png') no-repeat center center;
-	border-radius: 44px;
+	background: $cyan url('../images/tk.png') no-repeat center center;
+	border-radius: 50%;
 	height: 88px;
 	width: 88px;
 	display: inline-block;
 	margin-bottom: .5em;
 	overflow: hidden;
-	color: #2aa198;
-}
-
-header em
-{
-	display: block;
-	font-size: 90%;
+	color: $cyan;
 }
 
 #go-back-home
@@ -156,7 +173,7 @@ header em
 #go-back-home:hover
 {
 	background-image:none;
-	color: #2aa198;
+	color: $cyan;
 }
 
 center.hello
@@ -168,20 +185,21 @@ center.hello
 /* Error 404 */
 center#not-found
 {
-	color: #93a1a1;
+	color: $base1;
+
+	strong
+	{
+		color: $cyan;
+		border: 3px solid $cyan;
+		border-radius: 82px;
+		display: block;
+		width: 158px;
+		padding: 68px 0;
+		font-size: 35px;
+		font-weight: 400;
+	}
 }
 
-center#not-found strong
-{
-	color: #2aa198;
-	border: 3px solid #2aa198;
-	border-radius: 82px;
-	display: block;
-	width: 158px;
-	padding: 68px 0;
-	font-size: 35px;
-	font-weight: 400;
-}
 
 ol,ol li
 {
@@ -204,11 +222,11 @@ footer
 	padding-bottom:15px;
 	text-align:center;
 	margin:auto;
-}
 
-footer *
-{
-	color:#797979;
+	*
+	{
+		color:#797979;
+	}
 }
 
 #container
@@ -225,6 +243,48 @@ footer *
 	-moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	box-shadow:0 1px 1px rgba(0,0,0,0.2);
 	margin: 20px 0;
+	
+	.block
+	{
+		border-top:1px solid #e6e6e6;
+		border-bottom:1px solid #e6e6e6;
+		text-align:center;
+		padding:24px 40px 24px;
+
+		a.main
+		{
+			zoom:1;
+			display:inline;
+			vertical-align:auto;
+			margin-right:12px;
+			margin-bottom:6px;
+			padding:2px;
+		}
+
+		a.main:last-of-type
+		{
+			margin-right:0;
+		}
+
+		.button
+		{
+			zoom:1;
+			display:inline;
+			vertical-align:auto;
+			height:20px;
+			overflow:hidden;
+		}
+	}
+
+	.block:first-child,#container .block + .block
+	{
+		border-top:0;
+	}
+
+	.block:last-child
+	{
+		border-bottom:0;
+	}
 }
 
 #container:before,#container:after
@@ -238,47 +298,6 @@ footer *
 	clear:both;
 }
 
-#container .block
-{
-	border-top:1px solid #e6e6e6;
-	border-bottom:1px solid #e6e6e6;
-	text-align:center;
-	padding:24px 40px 24px;
-}
-
-#container .block:first-child,#container .block + .block
-{
-	border-top:0;
-}
-
-#container .block:last-child
-{
-	border-bottom:0;
-}
-
-#container .block a.main
-{
-	zoom:1;
-	display:inline;
-	vertical-align:auto;
-	margin-right:12px;
-	margin-bottom:6px;
-	padding:2px;
-}
-
-#container .block a.main:last-of-type
-{
-	margin-right:0;
-}
-
-#container .block .button
-{
-	zoom:1;
-	display:inline;
-	vertical-align:auto;
-	height:20px;
-	overflow:hidden;
-}
 
 .content
 {
@@ -296,13 +315,13 @@ footer *
 a,.as-link
 {
 	text-decoration:none;
-	color: #586e75;
-	background-color: #fdf6e3;
+	color: $base01;
+	background-color: $base3;
 	padding: 2px 4px 0px;
 	zoom:1;
 	display: inline;
 	vertical-align:auto;
-	border-bottom: 1px solid #eee8d5;
+	border-bottom: 1px solid $base2;
 	-webkit-transition:	all .25s ease-out;
 	-moz-transition:	all .25s ease-out;
 	-ms-transition:		all .25s ease-out;
@@ -313,8 +332,8 @@ a,.as-link
 a:hover,.as-link.main,.as-link:hover
 {
 	color: #fff;
-	background-color: #657b83;
-	border-bottom: 1px solid #586e75;
+	background-color: $base00;
+	border-bottom: 1px solid $base01;
 }
 
 a.main {
@@ -557,7 +576,7 @@ section.post blockquote:before,section.post blockquote:after,section > p blockqu
 	bottom:0;
 	line-height:.4em;
 	word-break:break-all;
-	color: #2aa198;
+	color: $cyan;
 	display:block;
 	width:7px!important;
 	white-space:normal;
