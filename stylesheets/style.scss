@@ -191,7 +191,7 @@ center#not-found
 	{
 		color: $cyan;
 		border: 3px solid $cyan;
-		border-radius: 82px;
+		border-radius: 50%;
 		display: block;
 		width: 158px;
 		padding: 68px 0;
@@ -298,7 +298,6 @@ footer
 	clear:both;
 }
 
-
 .content
 {
 	-webkit-box-sizing:border-box;
@@ -322,11 +321,11 @@ a,.as-link
 	display: inline;
 	vertical-align:auto;
 	border-bottom: 1px solid $base2;
-	-webkit-transition:	all .25s ease-out;
-	-moz-transition:	all .25s ease-out;
-	-ms-transition:		all .25s ease-out;
-	-o-transition:		all .25s ease-out;
-	transition:			all .25s ease-out;
+	-webkit-transition:	background-color .25s ease-out;
+	-moz-transition:	background-color .25s ease-out;
+	-ms-transition:		background-color .25s ease-out;
+	-o-transition:		background-color .25s ease-out;
+	transition:			background-color .25s ease-out;
 }
 
 a:hover,.as-link.main,.as-link:hover
