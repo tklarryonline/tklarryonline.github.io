@@ -1,6 +1,17 @@
 <header>
-	<a id="go-back-home" class="animated" href="/">
-		<strong id="logo">tk</strong>
-		<em>thinking and hacking</em>
-	</a>
+<a id="go-back-home" class="animated" href="/">
+	<!--	<strong id="logo">tk</strong>-->
+	<div id="tk-logo" class="flat-icon">tk</div>
+	<em>thinking and hacking</em>
+</a>
+<script>
+	$("#tk-logo.flat-icon").flatshadow({
+		// Shadows direction. 
+		// Available options: N, NE, E, SE, S, SW, W and NW.
+		// (Angle will be random if left unassigned)
+		angle: "SE", 
+		// Gradient shadow effect
+		fade: false 
+	});
+</script>
 </header>
