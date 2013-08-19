@@ -458,33 +458,46 @@ ul.posts,ul.posts li
     list-style: none;
     margin: 15px 0px 0px;
     padding: 0;
+    text-align: center;
 }
 
-ul.posts li
+ul.posts
 {
-    margin-bottom: 20px;
-}
+	li 
+	{
+		margin-bottom: 20px;
 
-ul.posts .datetime
-{
-    zoom: 1;
-    display: inline;
-    vertical-align: auto;
-    width: 130px;
-    text-transform: uppercase;
-    float: right;
-    color: #b1b1b1;
-    font-size: 10px;
-    text-align: right;
-    -webkit-transition:     all .25s ease-out;
-    -moz-transition:    all .25s ease-out;
-    -ms-transition:         all .25s ease-out;
-    -o-transition:      all .25s ease-out;
-    transition:             all .25s ease-out;
-}
+		.post-title
+		{
+			font-size: 110%;
+			font-weight: bold;
+		}
+	}
 
-ul.posts li:hover .datetime {
-    color: #777;
+	li:hover
+	{
+		.datetime 
+		{
+			color: #777;
+		}
+	}
+
+	.datetime
+	{
+		zoom: 1;
+		display: inline;
+		vertical-align: auto;
+		width: 130px;
+		text-transform: uppercase;
+		color: #b1b1b1;
+		font-size: 10px;
+		text-align: right;
+		-webkit-transition:     all .25s ease-out;
+		-moz-transition:    all .25s ease-out;
+		-ms-transition:         all .25s ease-out;
+		-o-transition:      all .25s ease-out;
+		transition:             all .25s ease-out;
+	}
 }
 
 section.post
