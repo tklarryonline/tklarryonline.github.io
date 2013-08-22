@@ -2,14 +2,12 @@
 layout: blog-roll
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}" class="post-title">
-      {{ post.title }}
-    </a>
-    <br/>
-	<small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
-  </li>
-  {% endfor %}
-</ul>
+%ul.posts
+  == {% for post in site.posts %}
+  %li
+    %a.post-title{:href => "{{ post.url }}"}
+      == {{ post.title }}
+    %br
+    %small.datetime.muted{:data => {:time => "{{ post.date }}"}}
+      == {{ post.date | date_to_string }}
+  == {% endfor %}

@@ -5,15 +5,16 @@ layout: index
 %center.hello
   %p
     Hello, I'm
-    %a{:href => "/about"}>Luan
-    . Or
+    = succeed '.' do
+      %a{:href => "/about"} Luan
+    Or
     %strong TK
     for short.
   %p
     I’m a web developer and designer,
-    %br>/
+    %br
     an aspiring entrepreneur and a joyful photo-taker
-    %br>/
+    %br
     from Ho Chi Minh City, Vietnam.
   %p
     Wanna get in touch?
