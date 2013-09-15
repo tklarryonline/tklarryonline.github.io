@@ -134,59 +134,50 @@ header
         display: inline-block;
     }
 
+	a.menu {
+		width: 80px;
+	}
+
     em {
         display: block;
         font-size: 90%;
     }
-}
 
-strong#logo
-{
-    background: $cyan url('../images/tk.png') no-repeat center center;
-    border-radius: 50%;
-    height: 88px;
-    width: 88px;
-    display: inline-block;
-    margin-bottom: .5em;
-    overflow: hidden;
-    color: $cyan;
-}
+	#go-back-home
+	{
+		margin: 15px 0 0;
+		background: none;
+		border: none;
+		-webkit-animation-delay: .25s;
+		animation-delay: .25s;
+		-webkit-animation-name: down;
+		animation-name: down;
 
-#tk-logo
-{
-    background-color: $cyan !important;
-    border-radius: 50%;
-    color: white !important;
-}
+		&:hover
+		{
+			background-image: none;
+			color: $cyan;
+		}
 
-.flat-icon
-{
-    text-align: center;
-    padding: 23px 21px;
-    font-weight: bold;
-    display: inline-block;
-    line-height: 100%;
-    overflow: hidden;
-    width: 50px;
-    font-size: 45px;
-}
+		.flat-icon
+		{
+			text-align: center;
+			padding: 23px 21px;
+			font-weight: bold;
+			display: inline-block;
+			line-height: 100%;
+			overflow: hidden;
+			width: 50px;
+			font-size: 45px;
+		}
 
-
-#go-back-home
-{
-    margin: 15px 0 0;
-    background: none;
-    border: none;
-    -webkit-animation-delay: .25s;
-    animation-delay: .25s;
-    -webkit-animation-name: down;
-    animation-name: down;
-}
-
-#go-back-home:hover
-{
-    background-image: none;
-    color: $cyan;
+		#tk-logo
+		{
+			background-color: $cyan !important;
+			border-radius: 50%;
+			color: white !important;
+		}
+	}
 }
 
 center.hello

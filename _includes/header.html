@@ -1,17 +1,16 @@
 <header>
-<a id="go-back-home" class="animated" href="/">
-	<!--	<strong id="logo">tk</strong>-->
-	<div id="tk-logo" class="flat-icon">tk</div>
-	<em>thinking and hacking</em>
-</a>
-<script>
-	$("#tk-logo.flat-icon").flatshadow({
-		// Shadows direction. 
-		// Available options: N, NE, E, SE, S, SW, W and NW.
-		// (Angle will be random if left unassigned)
-		angle: "SE", 
-		// Gradient shadow effect
-		fade: false 
-	});
-</script>
+	{% assign limit = site.links.size | divided_by: 2 %}
+
+	{% for link in site.links limit:limit %}
+	<a class='menu' href="{{ link.url }}">{{ link.name }}</a>
+	{% endfor %}
+
+	<a id="go-back-home" class="animated" href="/">
+		<div id="tk-logo" class="flat-icon">tk</div>
+		<em>thinking and hacking</em>
+	</a>
+	
+	{% for link in site.links offset:limit | plus: 1 %}
+	<a class='menu' href="{{ link.url }}">{{ link.name }}</a>
+	{% endfor %}
 </header>
