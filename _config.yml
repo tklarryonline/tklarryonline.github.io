@@ -1,26 +1,31 @@
+# Global config
 destination:      tklarryonline
+timezone:         Asia/Ho_Chi_Minh
 
+# Serve commands
+port:             1616
+
+# Personal stuff
 title:            tklarryonline.me
 description:      thinking and hacking
 url:              tklarryonline.github.io
 signoff:          Luan Nguyen Thanh
-timezone:         Asia/Ho_Chi_Minh
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links: 
   - name:         Blog
-    url:          /blog
+    url:          /blog/
   - name:         About TK
-    url:          /about
+    url:          /about/
   - name:         My Bookshelf
-    url:          /books
+    url:          /books/
   - name:         Email
     url:          mailto:luan@tklarryonline.me
 
 pygments:         true
-permalink:        pretty
+permalink:        /blog/:title/
 markdown:         rdiscount
 rdiscount:
   extensions:     [smart]
