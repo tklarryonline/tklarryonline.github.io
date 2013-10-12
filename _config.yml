@@ -19,7 +19,7 @@ links:
     url:          /blog/
   - name:         About TK
     url:          /about/
-  - name:         My Bookshelf
+  - name:         Bookshelf
     url:          /books/
   - name:         Email
     url:          mailto:luan@tklarryonline.me
