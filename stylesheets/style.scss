@@ -32,21 +32,17 @@ a {
   }
 }
 
-.container-fluid {
-  margin-top: 60px;
-}
-
 body.home { background-color: #d35400; }
 
 #home {
   .hello {
     color: white;
-    margin-top: 288px;
+    margin-top: 348px;
     text-align: center;
 
     h1 {
-      font-family: 'Helvetica CY', Helvetica, sans-serif;
-      font-size: 120px;
+      font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+      font-size: 110px;
       font-weight: bold;
       letter-spacing: 3.5px;
       line-height: 130px;
@@ -54,10 +50,10 @@ body.home { background-color: #d35400; }
     }
 
     p {
-      font-family: 'Segoe UI', Helvetica, sans-serif;
-      font-size: 40px;
-      font-weight: 200;
-      line-height: 48px;
+      font-family: 'Open Sans', Helvetica, Segoe UI, sans-serif;
+      font-size: 38px;
+      font-weight: 300;
+      line-height: 45px;
     }
   }
 
@@ -76,9 +72,9 @@ body.home { background-color: #d35400; }
         color: white;
         display: block;
         font-family: 'Segoe UI', Helvetica, sans-serif;
-        font-size: 27px;
+        font-size: 30px;
         line-height: 27px;
-        padding: 10px 20px 17px;
+        padding: 10px 20px 15px;
         width: 225px;
 
         &:hover {
