@@ -1,22 +1,15 @@
 ---
 layout: index
+class: home
 ---
 
-%center.hello
-  %p
-    Hello, I'm
-    = succeed '.' do
-      %a{:href => "/about"} Luan
-    Or
-    %strong TK
-    for short.
-  %p
-    I’m a web developer and designer,
-    %br
-    an aspiring entrepreneur and a joyful photo-taker
-    %br
-    from Ho Chi Minh City, Vietnam.
-  %p
-    Wanna get in touch?
-    %a{:href => "mailto:luan@tklarryonline.me"} Email
-    is the best!
+.hello.unselectable
+  %h1 Hey, I’m Luan!
+  %p I love making user-and-developer-friendly interfaces!
+  %p Would you like to
+  %ul.links-list.clearfix
+    == {% for link in site.home-main-links %}
+    %li.inline
+      %a.link{href: "{{ link.url }}"}
+        == {{ link.description }}
+    == {% endfor %}

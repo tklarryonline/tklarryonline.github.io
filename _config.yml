@@ -16,7 +16,9 @@ disqus_shortname: # disqus comment thread for post header options. ( leave blank
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-links: 
+links:
+  - name:         Work
+    url:          /work/
   - name:         Blog
     url:          /blog/
   - name:         About TK
@@ -25,6 +27,17 @@ links:
     url:          /books/
   - name:         Email
     url:          mailto:luan@tklarryonline.me
+
+home-main-links:
+  - name:         Work
+    url:          /work/
+    description:  see my work
+  - name:         Blog
+    url:          /blog/
+    description:  read my blog
+  - name:         Email
+    url:          mailto:luan@tklarryonline.me
+    description:  talk to me
 
 pygments:         true
 permalink:        /blog/:title/
