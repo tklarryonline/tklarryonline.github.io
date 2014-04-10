@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tklarryonline.me</title>
+    <description>thinking and hacking</description>
+    <link>tklarryonline.github.io</link>
+    <atom:link href="tklarryonline.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Infield form labels</title>
+        <description>&lt;p&gt;I have been searching for decades on how to increase the usability of form-field&amp;#39;s label. Thus, reading this post about &lt;a href=&quot;http://viget.com/inspire/making-infield-form-labels-suck-less&quot;&gt;&lt;strong&gt;Making Infield Form Labels Suck Less&lt;/strong&gt;&lt;/a&gt; inspired me.&lt;/p&gt;
+
+&lt;p&gt;I myself would prefer a form with field&amp;#39;s label positioned above the field, left-indented. And the placeholder text inside the field would tell briefly what should be filled. Those together would probably bring the feeling of step-by-step, what-to-do towards the form.&lt;/p&gt;
+
+&lt;p&gt;However, using just the placeholder text are not really usable. There will be some use-cases that the user clicks on the field, placeholder text disappear and... our fellow user has to rely on their short-term memory to figure out what to do.&lt;/p&gt;
+
+&lt;p&gt;From the post I learned some great ways to attack the problem in term of UX. And finally felt interested in the solution idea:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We ended up using the tooltip approach, placing labels above their input once the input has focus. We liked this approach because the active input labels are clearly distinct from other form elements, and the same approach can be used when the design scales down to smaller screens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://viget.com/inspire/making-infield-form-labels-suck-less-2&quot;&gt;&lt;em&gt;actual implementation&lt;/em&gt;&lt;/a&gt; of this solution, surprisingly, was not as good as I expected. The label (as a tooltip) displayed and obscured the field above, which to me is not a good appeal. One thing that may help to overcome this problem, is to decrease the opacity a little bit to show the field above. Not right-into-the-eyes, but yet visually okay.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Jun 2013 01:19:51 +0000</pubDate>
+        <link>tklarryonline.github.io/blog/infield-form-labels/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/infield-form-labels/</guid>
+      </item>
+    
+      <item>
+        <title>Switching to Jekyll</title>
+        <description>&lt;p&gt;There&amp;#39;re many reasons why I wanted to switch my blog back-end to &lt;a href=&quot;http://Jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;. One main reason is that I love &lt;a href=&quot;http://git-scm.com&quot;&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/a&gt;, even want to do almost anything in my life with &lt;strong&gt;Git&lt;/strong&gt; (well, &lt;em&gt;almost&lt;/em&gt;). And Jekyll does just that.&lt;/p&gt;
+
+&lt;p&gt;The speed of static HTML website is another reason. This &lt;a href=&quot;http://blog.kissmetric.com/loading-time/&quot;&gt;2-second loading time&lt;/a&gt; fact comparing to my old Wordpress site 7-second loading time (cached already) is just-not-right. And this site loads for just &lt;a href=&quot;http://tools.pingdom.com/fpt/#!/jHE3s/http://tklarryonline.github.io&quot;&gt;578ms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m using a modified version of Scribble, the Jekyll theme, a nice theme to start-up. You can easily &lt;a href=&quot;http://github.com/muan/scribble&quot;&gt;get it on GitHub&lt;/a&gt;. However, a new home needs some clean-up. So here are my to-dos:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;s&gt;Create my own logo using CSS3;&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Increase font-size and line-height to my own needs;&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Modify the hyperlink appearance;&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;Modify the menu bar;&lt;/li&gt;
+&lt;li&gt;&lt;s&gt;Modify the container, blockquote and codeblock;&lt;/s&gt;&lt;/li&gt;
+&lt;li&gt;Modify the page navigation;&lt;/li&gt;
+&lt;li&gt;Modify 404 error page;&lt;/li&gt;
+&lt;li&gt;Customize my footer;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Apart from that, listening to this selected list of &lt;a href=&quot;http://mp3.zing.vn/album/Nhac-Hot-US-UK-Thang-06-2013-Various-Artists/ZWZAB7EW.html&quot;&gt;Pop music for June&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;and this post is not yet finished&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 16 Jun 2013 12:00:16 +0000</pubDate>
+        <link>tklarryonline.github.io/blog/switching-to-jekyll/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/switching-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Y.O.L.O!</title>
+        <description>&lt;p&gt;The two old-boys, after hearing people scream &amp;quot;YOLO&amp;quot;, looked at each other:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;You only live once?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;You obviously lack originality!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;Yup! Obviously! Lemonade? One?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: (Yelling out loud) &lt;em&gt;Orange!!!!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;You&amp;#39;d only like orange?!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Yes, orange! Lemon? Ouch!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: (...)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Your orange looks odd?!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;Your orange-lemonade&amp;#39;s on!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Yerk! Orange-lemonade? Okay...&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: (...)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: (...)
+&lt;br/&gt;
+&lt;strong&gt;TK&lt;/strong&gt;: I&amp;#39;m done with this YOLO stuff...&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: Me too =.=&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 May 2013 00:18:26 +0000</pubDate>
+        <link>tklarryonline.github.io/blog/y-o-l-o/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/y-o-l-o/</guid>
+      </item>
+    
+      <item>
+        <title>Scribble, the Jekyll theme</title>
+        <description>&lt;p&gt;There is no clever design philosophy to talk about, I tried to find something to work with, and &amp;#39;scribble&amp;#39; came to my mind. This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS &amp;amp; CoffeeScript, though .scss &amp;amp; .coffee files wouldn&amp;#39;t be included in the theme. &lt;/p&gt;
+
+&lt;p&gt;The theme is mobile optimised but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Get started&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/muan/scribble/fork&quot;&gt;Fork the repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Clone the repository to your computer.&lt;br /&gt; &lt;code&gt;git clone https://github.com/username/scribble&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;bundle install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If using older versions of Jekyll&lt;/strong&gt;&lt;br /&gt;
+Build and run jekyll using &lt;code&gt;jekyll --server --auto&lt;/code&gt;.&lt;br /&gt;
+&lt;strong&gt;If using &lt;a href=&quot;http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/&quot;&gt;Jekyll 1.0&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+Build Jekyll using &lt;code&gt;jekyll build&lt;/code&gt;.&lt;br /&gt;
+Then run Jekyll using &lt;code&gt;jekyll serve --watch&lt;/code&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Go to http://localhost:4000 for your site.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Make it yours&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I have extract most user specific information to &lt;code&gt;_config.yml&lt;/code&gt;, you should be able to set up almost everything from it.&lt;/li&gt;
+&lt;li&gt;Change about.md for blog intro.&lt;/li&gt;
+&lt;li&gt;For domain settings, see &lt;a href=&quot;https://help.github.com/articles/setting-up-a-custom-domain-with-pages&quot;&gt;the guide from GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Options&lt;/h3&gt;
+
+&lt;p&gt;When writing a post, there are 3 options you can add to the header.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;disqus: y&lt;/strong&gt;&lt;br /&gt;
+If disqus is set to &amp;#39;y&amp;#39;, at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST &lt;a href=&quot;http://disqus.com/&quot;&gt;set up your own disqus account&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;share: y&lt;/strong&gt;&lt;br /&gt;
+An option for showing tweet and like button under a post.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;date&lt;/strong&gt;: 2013-05-06 18:07:17&lt;br /&gt;
+Date is not a required header since Jekyll reads the file name for date, this was added in only for the &lt;strong&gt;signoff time&lt;/strong&gt;. (as shown at the end of this post) If you don&amp;#39;t want the signoff time, go into &lt;code&gt;/includes/signoff.html&lt;/code&gt; and remove the &lt;code&gt;&amp;lt;span&amp;gt;&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/muan/scribble&quot; target=&quot;_blank&quot; class=&quot;big-button gray&quot;&gt;Get it on GitHub &amp;hearts;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;The end&lt;/h3&gt;
+
+&lt;p&gt;Like it? &lt;a href=&quot;http://twitter.com/muanchiou&quot;&gt;Tell me&lt;/a&gt;.&lt;br/&gt;
+Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 May 2013 16:27:31 +0000</pubDate>
+        <link>tklarryonline.github.io/blog/scribble-the-jekyll-theme/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/scribble-the-jekyll-theme/</guid>
+      </item>
+    
+      <item>
+        <title>Placeholder post</title>
+        <description>&lt;p&gt;I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Boom. I am a blockquote.&lt;/p&gt;
+
+&lt;p&gt;Say something really clever here.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;whaaa&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I have a friend called Bobobmob.&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Mon, 06 May 2013 15:27:31 +0000</pubDate>
+        <link>tklarryonline.github.io/blog/more-post/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/more-post/</guid>
+      </item>
+    
+  </channel>
+</rss>
