@@ -1,0 +1,8 @@
+<div class="navigation col-md-2">
+  <a href="/">Home</a>
+  <ul>
+  {% for link in site.links %}
+  <a href="{{ link.url }}"><li>{{ link.name }}</li></a>
+  {% endfor %}
+  </ul>
+</div>
