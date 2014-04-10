@@ -2,6 +2,7 @@
 destination:      tklarryonline
 timezone:         Asia/Ho_Chi_Minh
 exclude:          [Gemfile, Gemfile.lock]
+encoding:         UTF-8
 
 # Serve commands
 port:             1616
