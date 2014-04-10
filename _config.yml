@@ -28,9 +28,7 @@ links:
 
 pygments:         true
 permalink:        /blog/:title/
-markdown:         rdiscount
-rdiscount:
-  extensions:     [smart]
+markdown:         redcarpet
 
 sass:
     syntax: scss
