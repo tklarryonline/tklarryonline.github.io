@@ -1,6 +1,7 @@
 # Global config
 destination:      tklarryonline
 timezone:         Asia/Ho_Chi_Minh
+exclude:          [Gemfile, Gemfile.lock]
 
 # Serve commands
 port:             1616
