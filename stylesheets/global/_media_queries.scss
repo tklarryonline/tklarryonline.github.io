@@ -1,0 +1,11 @@
+@media all and (min-width: 2560px) {
+  body.home {
+    @include body-home-background(2880);
+  }
+}
+
+@media all and (min-width: 1900px) and (max-width: 1920px) {
+  body.home {
+    @include body-home-background(1920);
+  }
+}

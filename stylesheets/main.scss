@@ -1,0 +1,63 @@
+@import 'global/_defaults';
+@import 'global/_media_queries';
+
+@import 'modules/_divs';
+
+body.home { background-color: $web-base; }
+
+#home {
+  .hello {
+    color: white;
+    margin-top: 348px;
+    text-align: center;
+
+    h1 {
+      font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+      font-size: 110px;
+      font-weight: bold;
+      letter-spacing: 3.5px;
+      line-height: 130px;
+      margin-bottom: 6px;
+    }
+
+    p {
+      font-family: 'Open Sans', Helvetica, Segoe UI, sans-serif;
+      font-size: 38px;
+      font-weight: 300;
+      line-height: 45px;
+    }
+  }
+
+  .links-list {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+
+    li {
+      margin: 0 15px;
+
+      .link {
+        @include transition(all, 0.15s, ease-in-out);
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        display: block;
+        font-family: 'Segoe UI', Helvetica, sans-serif;
+        font-size: 30px;
+        line-height: 27px;
+        padding: 10px 20px 15px;
+        width: 225px;
+
+        &:hover {
+          background: white;
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+body.blog {
+  border-top: 3px solid $web-base;
+}
