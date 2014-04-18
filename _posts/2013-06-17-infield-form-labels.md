@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Infield form labels
+title: For better infield form's labels
 date: 2013-06-17 1:19:51
+excerpt: My little adventure to improve the usability of infield's labels.
 ---
 
 I have been searching for decades on how to increase the usability of form-field's label. Thus, reading this post about [**Making Infield Form Labels Suck Less**](http://viget.com/inspire/making-infield-form-labels-suck-less) inspired me.

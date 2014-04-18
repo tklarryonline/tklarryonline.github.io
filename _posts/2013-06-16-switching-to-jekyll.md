@@ -2,6 +2,7 @@
 layout: post
 title: Switching to Jekyll
 date: 2013-06-16 12:00:16
+excerpt: from Wordpress and any other famous CMS(s).
 ---
 
 There're many reasons why I wanted to switch my blog back-end to [Jekyll](http://Jekyllrb.com). One main reason is that I love [**Git**](http://git-scm.com), even want to do almost anything in my life with **Git** (well, *almost*). And Jekyll does just that.
