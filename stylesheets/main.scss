@@ -106,30 +106,47 @@ body.blog {
       margin: 50px 0 75px;
 
       .posted-date {
-        font-size: 18px;
-        line-height: 15px;
+        color: rgba(147, 161, 161, 0.65);
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        line-height: 25px;
       }
 
       .post-title {
-        margin: 0 0 10px;
+        font-size: 35px;
+        margin: 0;
 
-        >a {
+        > a {
           color: $blog-header-color;
-          font-size: 35px;
         }
       }
+    }
+  }
+}
 
-      .post-read-more {
-        border-bottom: 1px solid $blog-color;
-        color: $blog-color;
-        font-size: 18px;
-        line-height: 1;
-        padding-bottom: 3px;
-      }
+.post {
+  a {
+    color: $blog-a;
 
-      p {
-        font-size: 20px;
-      }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .post-excerpt {
+    > a {
+      color: $blog-color;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 23px;
+      margin-bottom: 0;
     }
   }
 }
