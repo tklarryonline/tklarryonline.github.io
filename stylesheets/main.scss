@@ -95,6 +95,7 @@ body.blog {
 
   .content {
     max-width: 720px;
+    width: 720px;
   }
 
   ul.posts {
@@ -102,29 +103,31 @@ body.blog {
     padding: 0;
 
     .post {
-      margin: 50px 0 75px;
+      margin-bottom: 75px;
 
-      .posted-date {
-        color: rgba(147, 161, 161, 0.8);
-        font-size: 16px;
-        font-weight: 300;
-        letter-spacing: 0.3px;
-        line-height: 25px;
+      &:first-child {
+        margin-top: 60px;
       }
+    }
+  }
 
-      .post-title {
-        font-size: 35px;
-        margin: 0;
+  > .post {
+    margin-top: 100px;
+    max-width: 720px;
+    width: 720px;
 
-        > a {
-          color: $blog-header-color;
-        }
+    .post-excerpt {
+      p {
+        font-weight: 400;
       }
     }
   }
 }
 
 .post {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
   a {
     color: $blog-a;
 
@@ -146,6 +149,33 @@ body.blog {
       font-weight: 300;
       font-size: 23px;
       margin-bottom: 0;
+    }
+  }
+
+  .post-title {
+    font-size: 35px;
+    margin: 0;
+
+    > a {
+      color: $blog-header-color;
+    }
+  }
+
+  .posted-date {
+    color: rgba(147, 161, 161, 0.8);
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+  }
+
+  .post-header {
+    margin-bottom: 50px;
+  }
+
+  .post-content {
+    p {
+      margin-bottom: 20px;
     }
   }
 }
