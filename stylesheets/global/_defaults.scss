@@ -44,13 +44,14 @@ $blog-header-color: white;
 /* }}} */
 
 /* Resets and Defaults styles {{{ */
-a {
-  cursor: pointer;
-}
-
 body {
+  font-family: 'Open Sans', Helvetica, Segoe UI, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  cursor: pointer;
 }
 
 .container-fluid {
