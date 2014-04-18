@@ -19,11 +19,18 @@ $solarized-green:         #859900;
 
 /* Website colors {{{ */
 $web-base: $solarized-base02;
+$blog-base: $solarized-base03;
+$blog-color: $solarized-base1;
+$blog-header-color: white;
 /* }}} */
 
 /* Mixins {{{ */
 @mixin body-home-background($size) {
-  background: url('/images/Workspace1_#{$size}.jpg') $web-base no-repeat fixed center/cover;
+  @include body-background('/images/Workspace1_#{$size}.jpg', $web-base, center);
+}
+
+@mixin body-background($image, $bg-color, $bg-position) {
+  background: url(#{$image}) $bg-color no-repeat fixed #{$bg-position}/cover;
 }
 
 @mixin transition($transition-property, $transition-time, $method) {
@@ -35,8 +42,17 @@ $web-base: $solarized-base02;
 }
 /* }}} */
 
-/* Others {{{ */
+/* Resets and Defaults styles {{{ */
 a {
   cursor: pointer;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-fluid {
+  padding: 0;
 }
 /* }}} */
