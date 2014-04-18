@@ -116,9 +116,13 @@ body.blog {
     max-width: 720px;
     width: 720px;
 
+    .post-title {
+      font-size: 40px;
+    }
+
     .post-excerpt {
       p {
-        font-weight: 400;
+        font-size: 26px;
       }
     }
   }
@@ -174,8 +178,20 @@ body.blog {
   }
 
   .post-content {
+    margin-bottom: 60px;
+
     p {
       margin-bottom: 20px;
+    }
+
+    blockquote {
+      background-color: $quote-bg;
+      border-left: 2px solid $quote-border;
+      padding: 15px 20px;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
