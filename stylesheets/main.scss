@@ -58,14 +58,13 @@ body.home { background-color: $web-base; }
 }
 
 body.blog {
-  background: $blog-base;
-  border-top: 3px solid $web-base;
-  color: $blog-color;
+  background: $blog-post-bg;
+  color: $blog-post-color;
 }
 
 #blog {
   h1, h3 {
-    color: $blog-header-color;
+    color: $blog-post-header-color;
   }
   h1 {
     font-weight: bold;
@@ -78,6 +77,7 @@ body.blog {
     padding-top: 300px;
 
     >h1, >h3 {
+      color: $blog-header-color;
       margin: 0;
     }
 
@@ -117,7 +117,7 @@ body.blog {
     width: 720px;
 
     .post-title {
-      font-size: 40px;
+      font-size: 45px;
     }
 
     .post-excerpt {
@@ -141,12 +141,22 @@ body.blog {
   }
 
   p {
+    font-size: 21px;
+  }
+
+  ul {
     font-size: 20px;
+    margin-bottom: 30px;
+    padding-left: 35px;
+
+    li {
+      margin-bottom: 18px;
+    }
   }
 
   .post-excerpt {
     > a {
-      color: $blog-color;
+      color: $blog-post-color;
     }
 
     p {
@@ -161,12 +171,12 @@ body.blog {
     margin: 0;
 
     > a {
-      color: $blog-header-color;
+      color: $blog-post-header-color;
     }
   }
 
   .posted-date {
-    color: rgba(147, 161, 161, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 0.3px;
@@ -181,16 +191,22 @@ body.blog {
     margin-bottom: 60px;
 
     p {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      line-height: 1.5;
     }
 
     blockquote {
       background-color: $quote-bg;
       border-left: 2px solid $quote-border;
-      padding: 15px 20px;
+      margin-bottom: 30px;
+      padding: 0 15px;
 
-      p:last-child {
-        margin-bottom: 0;
+      p {
+        font-style: italic;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }
