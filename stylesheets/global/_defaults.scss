@@ -24,7 +24,7 @@ $blog-base: $solarized-base03;
 $blog-color: $solarized-base1;
 $blog-header-color: white;
 $blog-post-bg: white;
-$blog-post-color: #333;
+$blog-post-color: #2C2C2C;
 $blog-post-header-color: $solarized-base02;
 $quote-bg: white;
 $quote-border: $solarized-cyan;
@@ -56,6 +56,7 @@ body {
 }
 
 a {
+  @include transition(all, 0.25s, ease-out);
   cursor: pointer;
 }
 

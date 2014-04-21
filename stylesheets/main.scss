@@ -66,6 +66,7 @@ body.blog {
   h1, h3 {
     color: $blog-post-header-color;
   }
+
   h1 {
     font-weight: bold;
   }
@@ -192,7 +193,7 @@ body.blog {
 
     p {
       margin-bottom: 30px;
-      line-height: 1.5;
+      line-height: 1.6;
     }
 
     blockquote {
@@ -210,6 +211,12 @@ body.blog {
       }
     }
   }
+
+  .post-content,
+  .post-signoff {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+  }
+}
 
 #nav-toggle {
   color: $solarized-cyan;
