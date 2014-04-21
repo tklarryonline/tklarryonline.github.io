@@ -11,10 +11,12 @@
     {% include head.html %}
   </head>
   <body class="{{ page.class }}">
+    {% include navigation.html %}
     <div class="container-fluid">
       <div id="{{ page.class }}" class="content col-md-12">
         {{ content }}
       </div>
     </div>
+    {% include footer_script.html %}
   </body>
 </html>

@@ -210,4 +210,58 @@ body.blog {
       }
     }
   }
+
+#nav-toggle {
+  color: $solarized-cyan;
+  display: block;
+  font-size: 22px;
+  line-height: 22px;
+  opacity: 0.7;
+  position: fixed;
+  top:  10px;
+  left: 15px;
+  z-index: 9999;
+
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+#slide-nav {
+  display: none;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    a {
+      color: #959595;
+
+      &:hover {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    .fa {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+      width: 30px;
+      height: 30px;
+    }
+
+    span {
+      margin-left: 5px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+  }
 }

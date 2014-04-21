@@ -16,6 +16,7 @@ title: my writings
     {% include head.html %}
   </head>
   <body class="{{ page.class }}">
+    {% include navigation.html %}
     <div id="{{ page.class }}" class="container-fluid text-center">
       <div class="blog-cover-image">
         <h1>Luan's writings</h1>
@@ -25,5 +26,6 @@ title: my writings
         {{ content }}
       </div>
     </div>
+    {% include footer_script.html %}
   </body>
 </html>

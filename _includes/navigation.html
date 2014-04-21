@@ -1,8 +1,13 @@
-<div class="navigation col-md-2">
-  <a href="/">Home</a>
+<a href="#slide-nav" id="nav-toggle"><i class="fa fa-bars"></i></a>
+<div id="slide-nav">
   <ul>
-  {% for link in site.links %}
-  <a href="{{ link.url }}"><li>{{ link.name }}</li></a>
-  {% endfor %}
+    {% for link in site.links %}
+    <li>
+      <a href="{{ link.url }}">
+        <i class="inline fa fa-{{ link.fa }}"></i>
+        <span class="inline">{{ link.name }}</span>
+      </a>
+    </li>
+    {% endfor %}
   </ul>
 </div>

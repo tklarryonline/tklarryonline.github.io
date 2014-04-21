@@ -17,16 +17,21 @@ facebook_appid:   # appid for like button, remove from /_includes/share.html if 
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
+  - name: Home
+    url: /
+    fa: home
   - name:         Work
     url:          /work/
+    fa: laptop
   - name:         Blog
     url:          /blog/
-  - name:         About TK
-    url:          /about/
+    fa: lightbulb-o
   - name:         Bookshelf
     url:          /books/
+    fa: book
   - name:         Email
     url:          mailto:luan@tklarryonline.me
+    fa: envelope-o
 
 home-main-links:
   - name:         Work
