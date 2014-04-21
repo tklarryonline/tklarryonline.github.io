@@ -13,15 +13,17 @@
 <link href='/images/tk_250x250.png' rel='image_src'>
 <!-- Styles -->
 <!-- external's -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:300italic,700italic,800italic,300,700,800,600&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <!-- internal's -->
 <link href='/stylesheets/global/bootstrap.min.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/third-parties/syntax.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/third-parties/solarized-dark.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/third-parties/jquery.pageslide.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/main.css' rel='stylesheet' type='text/css' />
 <!-- Javascript -->
-<script src='/javascripts/jquery.js' type='text/javascript'></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src='/javascripts/pd.js' type='text/javascript'></script>
 <script src='/javascripts/main.js' type='text/javascript'></script>
 <!-- Meta -->
@@ -39,6 +41,48 @@
 
   </head>
   <body class="blog">
+    <a href="#slide-nav" id="nav-toggle"><i class="fa fa-bars"></i></a>
+<div id="slide-nav">
+  <ul>
+    
+    <li>
+      <a href="/">
+        <i class="inline fa fa-home"></i>
+        <span class="inline">Home</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/work/">
+        <i class="inline fa fa-laptop"></i>
+        <span class="inline">Work</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/blog/">
+        <i class="inline fa fa-lightbulb-o"></i>
+        <span class="inline">Blog</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/books/">
+        <i class="inline fa fa-book"></i>
+        <span class="inline">Bookshelf</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="mailto:luan@tklarryonline.me">
+        <i class="inline fa fa-envelope-o"></i>
+        <span class="inline">Email</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
     <div class="container-fluid">
       <div id="blog" class="content col-md-12">
         <div class='post center-block'>
@@ -82,5 +126,10 @@
 
       </div>
     </div>
+    <script src='/javascripts/jquery.pageslide.min.js' type='text/javascript'></script>
+<script>
+    $("#nav-toggle").pageslide();
+</script>
+
   </body>
 </html>
