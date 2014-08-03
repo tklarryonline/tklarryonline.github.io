@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content='{{ site.title }}' property='og:title' />
+    <title>
+      {% if page.title %}
+      {{ page.title}} -
+      {% endif %}
+      {{ site.title }}
+    </title>
+    {% include head.html %}
+  </head>
+  <body class="{{ page.class }}">
+    <div id="{{ page.class }}" class="container-fluid">
+      {{ content }}
+    </div>
+    {% include navigation.html %}
+    {% include footer_script.html %}
+  </body>
+</html>

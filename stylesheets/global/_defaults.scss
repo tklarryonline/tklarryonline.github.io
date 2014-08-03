@@ -51,8 +51,7 @@ $quote-border: $solarized-cyan;
 /* Resets and Defaults styles {{{ */
 body {
   font-family: 'Open Sans', Helvetica, Segoe UI, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  font-smooth: always;
 }
 
 a {
