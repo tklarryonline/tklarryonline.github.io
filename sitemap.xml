@@ -2,31 +2,39 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>tklarryonline.github.io/blog/more-post/</loc>
-        <lastmod>2014-04-19T00:55:11+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/blog/y-o-l-o/</loc>
-        <lastmod>2014-04-19T00:55:11+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/blog/switching-to-jekyll/</loc>
-        <lastmod>2014-04-19T00:55:11+07:00</lastmod>
+        <lastmod>2014-04-22T11:33:42+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/blog/infield-form-labels/</loc>
-        <lastmod>2014-04-19T00:55:11+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
+    </url>
+    <url>
+        <loc>tklarryonline.github.io/blog/readability/</loc>
+        <lastmod>2014-06-11T10:27:19+07:00</lastmod>
+    </url>
+    <url>
+        <loc>tklarryonline.github.io/blog/after-hackathon/</loc>
+        <lastmod>2014-08-04T00:12:48+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/about/about/</loc>
-        <lastmod>2014-04-09T10:07:57+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/blog/blog/</loc>
-        <lastmod>2014-04-18T17:42:22+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:19+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/books/books/</loc>
-        <lastmod>2014-04-09T10:07:57+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
     </url>
     <url>
         <loc>tklarryonline.github.io/feed.xml</loc>
@@ -34,6 +42,6 @@
     </url>
     <url>
         <loc>tklarryonline.github.io/</loc>
-        <lastmod>2014-04-10T12:43:48+07:00</lastmod>
+        <lastmod>2014-04-21T16:38:53+07:00</lastmod>
     </url>
 </urlset>

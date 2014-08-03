@@ -7,6 +7,70 @@
     <atom:link href="tklarryonline.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>After Hackathon Vietnam</title>
+        <description>&lt;p&gt;Achievement unlocked: coming back from Hackathon in full flesh.&lt;/p&gt;
+
+&lt;p&gt;A team of four, a small room and 20+ hours of hacking intensively. None of us has been working in any fields related to our idea, yet we strove to broaden our horizons. Without this stressful competition, who knows when would we be aware of the Webkit Speech Recognition integrated inside Google Chrome? Or researching on Beat Detection (big appreciation to this &lt;a href=&quot;http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/&quot;&gt;great blog post&lt;/a&gt;, very timeliness) and Pitch Analysis.&lt;/p&gt;
+
+&lt;p&gt;Talking about Speech Recognition and Speech-to-Text technologies, here is one of our samples used in this Hackathon:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;From the awesome Fight Club movie&lt;/em&gt;
+&lt;audio controls&gt;
+    &lt;source src=&quot;/files/blog/after-hackathon/fight-club-welcome.mp3&quot; type=&quot;audio/mpeg&quot; &gt;
+    &lt;embed src=&quot;/files/blog/after-hackathon/fight-club-welcome.mp3&quot; &gt;
+&lt;/audio&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is the amusing transcribed result we got from a premium Speech Recognition service:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Yeah hey I am just like all the second like the is do not call ... I ... like somebody else I was going to ask if I do not hear from you guys in my room but it&amp;#39;s on those ... I remove your shoes or white polo as long as soon as you find ... your car is not like a hey ... whether you were doing for black ... everything with God and ... are ... I am going to start packing the video and ... oh..&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And of course we didn&amp;#39;t use that service in our application...&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&quot;paragraph-break&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;All the hearts go to my team&lt;/h2&gt;
+
+&lt;p&gt;It is not the war you fight but who you fight it with the most important! This adventure is nothing without my precious friends. In the hyper race with other teams, it was our endless jokes that kept us up and alive throughout the night. We joked about everything and everyone of us, from a dumb piece of code we produced to the &amp;quot;D.D.O.S attack&amp;quot; when Hackathon teams submitted their work to ChallengePost server. Even when we failed to submit our work due to the &amp;quot;D.D.O.S attack&amp;quot;, our humor helped to calm our minds so that we could find another way around to submit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br class=&quot;paragraph-break&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Closing remarks&lt;/h2&gt;
+
+&lt;p&gt;Happiness is all about the adventure. Although we came back without any prize, we were all rewarded. The hacking spirits - both outside and inside - overwhelmed me with awe.&lt;/p&gt;
+
+&lt;p&gt;And yes, every effort well spent :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Aug 2014 21:33:00 +0700</pubDate>
+        <link>tklarryonline.github.io/blog/after-hackathon/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/after-hackathon/</guid>
+      </item>
+    
+      <item>
+        <title>Readability</title>
+        <description>&lt;p&gt;I changed the color of my blog design simply because I can&amp;#39;t read it.&lt;/p&gt;
+
+&lt;p&gt;I am using &lt;a href=&quot;http://ethanschoonover.com/solarized&quot;&gt;Solarized&lt;/a&gt; colorscheme for my coding work everyday, and it&amp;#39;s great! The dark colors are subtle enough to keep my eyes cool through thousands lines of code.&lt;/p&gt;
+
+&lt;p&gt;Thus I thought it should be suitable for reading articles.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yet it is not.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Reading one of my articles with the dark Solarized colorscheme can be really eyes-appealing at first. However, after 15 minutes, my eyes started to hurt. The texts began to flicker, words competed to win my eyes&amp;#39; attention. And I was torn between the war. It was not a pleasure.&lt;/p&gt;
+
+&lt;h2&gt;Social testing&lt;/h2&gt;
+
+&lt;p&gt;I was giving my old design below to some &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/blog/readability/01-dark-background.jpg&quot;&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Apr 2014 12:29:00 +0700</pubDate>
+        <link>tklarryonline.github.io/blog/readability/</link>
+        <guid isPermaLink="true">tklarryonline.github.io/blog/readability/</guid>
+      </item>
+    
+      <item>
         <title>For better infield form's labels</title>
         <description>&lt;p&gt;I have been searching for decades on how to increase the usability of form-field&amp;#39;s label. Thus, reading this post about &lt;a href=&quot;http://viget.com/inspire/making-infield-form-labels-suck-less&quot;&gt;&lt;strong&gt;Making Infield Form Labels Suck Less&lt;/strong&gt;&lt;/a&gt; inspired me.&lt;/p&gt;
 
