@@ -1,13 +1,12 @@
 ---
 layout: post
-title: After Hackathon Vietnam
+title: Hackathon Vietnam afterthoughts
 date: 2014-08-02 21:33
 excerpt: A team of four, a small room and 20+ hours of hacking intensively.
+cover_image: true
 ---
 
-Achievement unlocked: coming back from Hackathon in full flesh.
-
-A team of four, a small room and 20+ hours of hacking intensively. None of us has been working in any fields related to our idea, yet we strove to broaden our horizons. Without this stressful competition, who knows when would we be aware of the Webkit Speech Recognition integrated inside Google Chrome? Or researching on Beat Detection (big appreciation to this [great blog post](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/), very timeliness) and Pitch Analysis.
+None of us has been working in any fields related to our idea, yet we strove to broaden our horizons. Without this stressful competition, who knows when would we be aware of the Webkit Speech Recognition integrated inside Google Chrome? Or researching on Beat Detection (big appreciation to this [great blog post](http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/), very timeliness) and Pitch Analysis.
 
 Talking about Speech Recognition and Speech-to-Text technologies, here is one of our samples used in this Hackathon:
 

@@ -1,17 +1,27 @@
 ---
 layout: index
-class: blog
+class: blog-post
 ---
 
-<div class='post center-block'>
+<div class="post">
+  {% if page.cover_image %}
+  <div class="post-header with-cover-image"
+      style="background: url('/files{{ page.id }}/cover_image.jpg') #073642 no-repeat fixed top/cover;">
+      <div class="background-dim"></div>
+  {% else %}
   <div class="post-header">
-    <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-    <div class="post-excerpt">{{ page.excerpt | markdownify }}</div>
-    <div class="posted-date">
-      written
-      <span class="datetime muted" data-time="{{ page.date }}">{{ page.date | date_to_string }}</span>
+  {% endif %}
+    <div class="post-header-contents center-block">
+      <div class="posted-date">
+        written
+        <span class="datetime muted" data-time="{{ page.date }}">{{ page.date | date_to_string }}</span>
+      </div>
+      <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+      <div class="post-excerpt">{{ page.excerpt | markdownify }}</div>
     </div>
   </div>
-  <div class="post-content">{{ content }}</div>
-  <div class="post-signoff">{% include signoff.html %}</div>
+  <div class="post-content center-block">
+    {{ content }}
+    <div class="post-signoff">{% include signoff.html %}</div>
+  </div>
 </div>
