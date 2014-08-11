@@ -266,19 +266,22 @@ body.blog {
       color: white !important;
     }
 
-    .background-dim {
-      background: $web-base;
-      height: 100%;
-      opacity: 0.5;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 1;
-    }
-
     .post-header-contents {
       position: relative;
       z-index: 2;
+    }
+  }
+
+  .background-dim {
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    &.dim-by-base-color {
+      background: $web-base;
     }
   }
 }
