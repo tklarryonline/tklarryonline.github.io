@@ -19,16 +19,20 @@
 <!-- Meta -->
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-<meta content="images/logo-round@2x.png" property="og:image" />
 <meta content="{{ site.facebook_appid }}" property="fb:app_id" />
 {% if page.date %}
-  <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
-  <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
-  <meta content="article" property="og:type" />
+<!-- it's article -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property='og:url' content='{{ site.url }}{{ page.url }}' />
+<meta property='og:description' content="{{ page.excerpt | strip_newlines | truncate: 120 }}" />
+<meta property="og:image" content="{{ site.url }}/files{{ page.id }}/og_image.jpg" />
 {% else %}
-  <meta content='{{ site.url }}' property='og:url' />
-  <meta content="{{ site.description }}" property='og:description' />
-  <meta content="blog" property="og:type" />
+<meta content="images/logo-round@2x.png" property="og:image" />
+<meta content='{{ site.url }}' property='og:url' />
+<meta content="{{ site.description }}" property='og:description' />
+<meta content="blog" property="og:type" />
 {% endif %}
 <!-- - -->
 <!-- @TODO add include ga.html -->
