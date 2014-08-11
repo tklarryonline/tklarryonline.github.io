@@ -7,10 +7,8 @@
     <atom:link href="tklarryonline.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>After Hackathon Vietnam</title>
-        <description>&lt;p&gt;Achievement unlocked: coming back from Hackathon in full flesh.&lt;/p&gt;
-
-&lt;p&gt;A team of four, a small room and 20+ hours of hacking intensively. None of us has been working in any fields related to our idea, yet we strove to broaden our horizons. Without this stressful competition, who knows when would we be aware of the Webkit Speech Recognition integrated inside Google Chrome? Or researching on Beat Detection (big appreciation to this &lt;a href=&quot;http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/&quot;&gt;great blog post&lt;/a&gt;, very timeliness) and Pitch Analysis.&lt;/p&gt;
+        <title>Hackathon Vietnam afterthoughts</title>
+        <description>&lt;p&gt;None of us has been working in any fields related to our idea, yet we strove to broaden our horizons. Without this stressful competition, who knows when would we be aware of the Webkit Speech Recognition integrated inside Google Chrome? Or researching on Beat Detection (big appreciation to this &lt;a href=&quot;http://tech.beatport.com/2014/web-audio/beat-detection-using-web-audio/&quot;&gt;great blog post&lt;/a&gt;, very timeliness) and Pitch Analysis.&lt;/p&gt;
 
 &lt;p&gt;Talking about Speech Recognition and Speech-to-Text technologies, here is one of our samples used in this Hackathon:&lt;/p&gt;
 
