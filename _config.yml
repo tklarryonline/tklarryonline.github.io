@@ -15,6 +15,20 @@ signoff:          Luan Nguyen Thanh
 disqus_shortname: tklarryonline
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+github_source:    https://github.com/tklarryonline/tklarryonline.github.io
+social:
+  flickr:
+    fa: flickr
+    username: tklarryonline
+    url: http://www.flickr.com/photos/tklarryonline
+  github:
+    fa: github-square
+    username: tklarryonline
+    url: https://github.com/tklarryonline/
+  linkedin:
+    fa: linkedin-square
+    username: tklarryonline
+    url: http://www.linkedin.com/in/tklarryonline
 
 links:
   - name: Home

@@ -17,6 +17,9 @@
         {{ content }}
       </div>
     </div>
+    {% if page.date %}
+    {% include footer.html %}
+    {% endif %}
     {% include footer_script.html %}
   </body>
 </html>

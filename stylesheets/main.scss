@@ -115,8 +115,6 @@ body.blog {
   padding: 0px 0 1px;
 
   a {
-    color: $blog-a;
-
     &:hover {
       text-decoration: none;
     }
@@ -271,18 +269,22 @@ body.blog {
       z-index: 2;
     }
   }
+}
 
-  .background-dim {
-    height: 100%;
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+.background-dim {
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 
-    &.dim-by-base-color {
-      background: $web-base;
-    }
+  &.dim-by-base-color {
+    background: $web-base;
+  }
+
+  &.dim-by-red {
+    background: darken($solarized-red, 30%);
   }
 }
 
@@ -349,6 +351,10 @@ audio {
   position: relative;
 }
 
+.general-wrapper720 {
+  width: 720px;
+}
+
 .disqus-thread-container {
   background: $solarized-base02;
   padding: 20px 0;
@@ -359,4 +365,35 @@ audio {
 
 #disqus_thread {
   width: 720px;
+}
+
+footer {
+  background: black;
+  color: $blog-color;
+  padding: 20px 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    &:hover {
+      color: lighten($blog-a, 20%);
+      text-decoration: none;
+    }
+  }
+
+  .social-links {
+    margin-top: 10px;
+
+    .social-link {
+      color: $blog-color;
+      font-size: 20px;
+      margin: 0 3px;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
 }

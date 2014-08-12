@@ -56,7 +56,12 @@ body {
 
 a {
   @include transition(all, 0.25s, ease-out);
+  color: $blog-a;
   cursor: pointer;
+
+  &:hover {
+    color: darken($blog-a, 10%);
+  }
 }
 
 .container-fluid {
