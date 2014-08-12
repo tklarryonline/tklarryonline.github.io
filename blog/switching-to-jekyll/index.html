@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta content='tklarryonline.me' property='og:title' />
     <title>
       
       Switching to Jekyll -
@@ -29,20 +28,22 @@
 <!-- Meta -->
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-<meta content="images/logo-round@2x.png" property="og:image" />
 <meta content="" property="fb:app_id" />
 
-  <meta content='tklarryonline.github.io/blog/switching-to-jekyll/' property='og:url' />
-  <meta content="There're many reasons why I wanted to switch my blog back-end to [Jekyll](http://Jekyllrb.com). One main reason is th..." property='og:description' />
-  <meta content="article" property="og:type" />
+<!-- it's article -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Switching to Jekyll" />
+<meta property="og:site_name" content="tklarryonline.me" />
+<meta property='og:url' content='tklarryonline.me/blog/switching-to-jekyll/' />
+<meta property='og:description' content="from Wordpress and any other famous CMS(s)." />
+<meta property="og:image" content="tklarryonline.me/files/blog/switching-to-jekyll/og_image.jpg" />
 
 <!-- - -->
 <!-- @TODO add include ga.html -->
 
   </head>
   <body class="blog-post">
-    <a href="#slide-nav" id="nav-toggle">&#9776;</a>
-<div class="unselectable" id="slide-nav">
+    <div class="unselectable" id="slide-nav">
   <ul>
     
     <li>
@@ -83,10 +84,10 @@
   </ul>
 </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div id="blog-post" class="content col-md-12">
-          <div class="post">
+    <div class="main-container container-fluid">
+      <a href="#slide-nav" id="nav-toggle">&#9776;</a>
+      <div id="blog-post" class="content">
+        <div class="post">
   
   <div class="post-header">
   
@@ -131,7 +132,6 @@
   </div>
 </div>
 
-        </div>
       </div>
     </div>
     <script src='/javascripts/jquery.pageslide.min.js' type='text/javascript'></script>

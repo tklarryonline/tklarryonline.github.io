@@ -3,8 +3,8 @@
   <channel>
     <title>tklarryonline.me</title>
     <description>thinking and hacking</description>
-    <link>tklarryonline.github.io</link>
-    <atom:link href="tklarryonline.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>tklarryonline.me</link>
+    <atom:link href="tklarryonline.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Hackathon Vietnam afterthoughts</title>
@@ -41,31 +41,8 @@
 &lt;p&gt;And yes, every effort well spent :)&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 21:33:00 +0700</pubDate>
-        <link>tklarryonline.github.io/blog/after-hackathon/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/after-hackathon/</guid>
-      </item>
-    
-      <item>
-        <title>Readability</title>
-        <description>&lt;p&gt;I changed the color of my blog design simply because I can&amp;#39;t read it.&lt;/p&gt;
-
-&lt;p&gt;I am using &lt;a href=&quot;http://ethanschoonover.com/solarized&quot;&gt;Solarized&lt;/a&gt; colorscheme for my coding work everyday, and it&amp;#39;s great! The dark colors are subtle enough to keep my eyes cool through thousands lines of code.&lt;/p&gt;
-
-&lt;p&gt;Thus I thought it should be suitable for reading articles.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Yet it is not.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Reading one of my articles with the dark Solarized colorscheme can be really eyes-appealing at first. However, after 15 minutes, my eyes started to hurt. The texts began to flicker, words competed to win my eyes&amp;#39; attention. And I was torn between the war. It was not a pleasure.&lt;/p&gt;
-
-&lt;h2&gt;Social testing&lt;/h2&gt;
-
-&lt;p&gt;I was giving my old design below to some &lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/files/blog/readability/01-dark-background.jpg&quot;&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 19 Apr 2014 12:29:00 +0700</pubDate>
-        <link>tklarryonline.github.io/blog/readability/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/readability/</guid>
+        <link>tklarryonline.me/blog/after-hackathon/</link>
+        <guid isPermaLink="true">tklarryonline.me/blog/after-hackathon/</guid>
       </item>
     
       <item>
@@ -85,8 +62,8 @@
 &lt;p&gt;The &lt;a href=&quot;http://viget.com/inspire/making-infield-form-labels-suck-less-2&quot;&gt;&lt;em&gt;actual implementation&lt;/em&gt;&lt;/a&gt; of this solution, surprisingly, was not as good as I expected. The label (as a tooltip) displayed and obscured the field above, which to me is not a good appeal. One thing that may help to overcome this problem, is to decrease the opacity a little bit to show the field above. Not right-into-the-eyes, but yet visually okay.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Jun 2013 01:19:51 +0000</pubDate>
-        <link>tklarryonline.github.io/blog/infield-form-labels/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/infield-form-labels/</guid>
+        <link>tklarryonline.me/blog/infield-form-labels/</link>
+        <guid isPermaLink="true">tklarryonline.me/blog/infield-form-labels/</guid>
       </item>
     
       <item>
@@ -113,67 +90,8 @@
 &lt;p&gt;&lt;em&gt;and this post is not yet finished&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Jun 2013 12:00:16 +0000</pubDate>
-        <link>tklarryonline.github.io/blog/switching-to-jekyll/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/switching-to-jekyll/</guid>
-      </item>
-    
-      <item>
-        <title>Y.O.L.O!</title>
-        <description>&lt;p&gt;The two old-boys, after hearing people scream &amp;quot;YOLO&amp;quot;, looked at each other:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;You only live once?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;You obviously lack originality!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;Yup! Obviously! Lemonade? One?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: (Yelling out loud) &lt;em&gt;Orange!!!!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;You&amp;#39;d only like orange?!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Yes, orange! Lemon? Ouch!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: (...)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Your orange looks odd?!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: &lt;em&gt;Your orange-lemonade&amp;#39;s on!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: &lt;em&gt;Yerk! Orange-lemonade? Okay...&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TK&lt;/strong&gt;: (...)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: (...)
-&lt;br/&gt;
-&lt;strong&gt;TK&lt;/strong&gt;: I&amp;#39;m done with this YOLO stuff...&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;L&lt;/strong&gt;: Me too =.=&lt;/p&gt;
-</description>
-        <pubDate>Wed, 29 May 2013 00:18:26 +0000</pubDate>
-        <link>tklarryonline.github.io/blog/y-o-l-o/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/y-o-l-o/</guid>
-      </item>
-    
-      <item>
-        <title>Placeholder post</title>
-        <description>&lt;p&gt;I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Boom. I am a blockquote.&lt;/p&gt;
-
-&lt;p&gt;Say something really clever here.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;whaaa&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;I have a friend called Bobobmob.&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-        <pubDate>Mon, 06 May 2013 15:27:31 +0000</pubDate>
-        <link>tklarryonline.github.io/blog/more-post/</link>
-        <guid isPermaLink="true">tklarryonline.github.io/blog/more-post/</guid>
+        <link>tklarryonline.me/blog/switching-to-jekyll/</link>
+        <guid isPermaLink="true">tklarryonline.me/blog/switching-to-jekyll/</guid>
       </item>
     
   </channel>
