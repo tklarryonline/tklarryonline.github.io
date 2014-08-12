@@ -2,27 +2,27 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://tklarryonline.me/blog/switching-to-jekyll/</loc>
-        <lastmod>2014-08-12T12:03:33+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/blog/infield-form-labels/</loc>
-        <lastmod>2014-08-12T12:03:33+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/blog/after-hackathon/</loc>
-        <lastmod>2014-08-12T12:03:33+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/about/about/</loc>
-        <lastmod>2014-08-12T00:18:26+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/blog/blog/</loc>
-        <lastmod>2014-08-12T00:18:17+07:00</lastmod>
+        <lastmod>2014-08-12T16:15:02+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/books/books/</loc>
-        <lastmod>2014-08-12T00:18:26+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
     <url>
         <loc>http://tklarryonline.me/feed.xml</loc>
@@ -30,6 +30,6 @@
     </url>
     <url>
         <loc>http://tklarryonline.me/</loc>
-        <lastmod>2014-08-12T00:18:26+07:00</lastmod>
+        <lastmod>2014-08-12T16:29:30+07:00</lastmod>
     </url>
 </urlset>
