@@ -348,3 +348,15 @@ audio {
 .main-container {
   position: relative;
 }
+
+.disqus-thread-container {
+  background: $solarized-base02;
+  padding: 20px 0;
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+
+#disqus_thread {
+  width: 720px;
+}
