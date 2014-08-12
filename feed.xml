@@ -3,8 +3,8 @@
   <channel>
     <title>tklarryonline.me</title>
     <description>thinking and hacking</description>
-    <link>tklarryonline.me</link>
-    <atom:link href="tklarryonline.me/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://tklarryonline.me</link>
+    <atom:link href="http://tklarryonline.me/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Hackathon Vietnam afterthoughts</title>
@@ -41,8 +41,8 @@
 &lt;p&gt;And yes, every effort well spent :)&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Aug 2014 21:33:00 +0700</pubDate>
-        <link>tklarryonline.me/blog/after-hackathon/</link>
-        <guid isPermaLink="true">tklarryonline.me/blog/after-hackathon/</guid>
+        <link>http://tklarryonline.me/blog/after-hackathon/</link>
+        <guid isPermaLink="true">http://tklarryonline.me/blog/after-hackathon/</guid>
       </item>
     
       <item>
@@ -62,8 +62,8 @@
 &lt;p&gt;The &lt;a href=&quot;http://viget.com/inspire/making-infield-form-labels-suck-less-2&quot;&gt;&lt;em&gt;actual implementation&lt;/em&gt;&lt;/a&gt; of this solution, surprisingly, was not as good as I expected. The label (as a tooltip) displayed and obscured the field above, which to me is not a good appeal. One thing that may help to overcome this problem, is to decrease the opacity a little bit to show the field above. Not right-into-the-eyes, but yet visually okay.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Jun 2013 01:19:51 +0000</pubDate>
-        <link>tklarryonline.me/blog/infield-form-labels/</link>
-        <guid isPermaLink="true">tklarryonline.me/blog/infield-form-labels/</guid>
+        <link>http://tklarryonline.me/blog/infield-form-labels/</link>
+        <guid isPermaLink="true">http://tklarryonline.me/blog/infield-form-labels/</guid>
       </item>
     
       <item>
@@ -90,8 +90,8 @@
 &lt;p&gt;&lt;em&gt;and this post is not yet finished&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Jun 2013 12:00:16 +0000</pubDate>
-        <link>tklarryonline.me/blog/switching-to-jekyll/</link>
-        <guid isPermaLink="true">tklarryonline.me/blog/switching-to-jekyll/</guid>
+        <link>http://tklarryonline.me/blog/switching-to-jekyll/</link>
+        <guid isPermaLink="true">http://tklarryonline.me/blog/switching-to-jekyll/</guid>
       </item>
     
   </channel>

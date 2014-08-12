@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>tklarryonline.me/blog/switching-to-jekyll/</loc>
+        <loc>http://tklarryonline.me/blog/switching-to-jekyll/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/blog/infield-form-labels/</loc>
+        <loc>http://tklarryonline.me/blog/infield-form-labels/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/blog/after-hackathon/</loc>
+        <loc>http://tklarryonline.me/blog/after-hackathon/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/about/about/</loc>
+        <loc>http://tklarryonline.me/about/about/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/blog/blog/</loc>
+        <loc>http://tklarryonline.me/blog/blog/</loc>
         <lastmod>2014-08-12T00:18:17+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/books/books/</loc>
+        <loc>http://tklarryonline.me/books/books/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/feed.xml</loc>
+        <loc>http://tklarryonline.me/feed.xml</loc>
         <lastmod>2014-02-25T20:18:20+07:00</lastmod>
     </url>
     <url>
-        <loc>tklarryonline.me/</loc>
+        <loc>http://tklarryonline.me/</loc>
         <lastmod>2014-08-12T00:18:26+07:00</lastmod>
     </url>
 </urlset>
