@@ -21,3 +21,28 @@
 .text-center {
   text-align: center;
 }
+
+.background-dim {
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &.dim-by-base-color {
+    background: $web-base;
+  }
+
+  &.dim-by-red {
+    background: darken($solarized-red, 30%);
+  }
+}
+
+.main-container {
+  position: relative;
+}
+
+.general-wrapper720 {
+  width: 720px;
+}

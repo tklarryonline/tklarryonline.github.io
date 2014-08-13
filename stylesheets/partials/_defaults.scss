@@ -1,0 +1,24 @@
+/* Resets and Defaults styles {{{ */
+body {
+  font-family: 'Open Sans', Helvetica, Segoe UI, sans-serif;
+  font-smooth: always;
+}
+
+a {
+  @include transition(all, 0.25s, ease-out);
+  color: $blog-a;
+  cursor: pointer;
+
+  &:hover {
+    color: $blog-a-hover;
+  }
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+audio {
+  width: 100%;
+}
+/* }}} */
