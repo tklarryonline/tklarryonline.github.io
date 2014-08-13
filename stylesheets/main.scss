@@ -269,6 +269,17 @@ body.blog {
       z-index: 2;
     }
   }
+
+  .post-content {
+    a {
+      border-bottom: 1px solid #ededed;
+      padding-bottom: 2px;
+
+      &:hover {
+        border-bottom: 1px solid $blog-a-hover;
+      }
+    }
+  }
 }
 
 .background-dim {
