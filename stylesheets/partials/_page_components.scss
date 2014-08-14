@@ -117,6 +117,14 @@ body.blog {
 
   p {
     font-size: 21px;
+
+    &::selection {
+      @include text-selection;
+    }
+
+    &::moz-selection {
+      @include text-selection;
+    }
   }
 
   ul {
@@ -272,6 +280,14 @@ body.blog {
 
       &:hover {
         border-bottom: 1px solid $blog-a-hover;
+      }
+
+      &::selection {
+        @include text-selection;
+      }
+
+      &::moz-selection {
+        @include text-selection;
       }
     }
   }
