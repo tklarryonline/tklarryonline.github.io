@@ -2,10 +2,11 @@ require 'stringex'
 
 class Post < Thor
 
-  desc "new", "Creates a new post"
-  method_option :editor, default: "subl"
-  method_option :cover_image, default: "false"
-  method_option :comments, default: "true"
+  desc "new", "Creates a new draft post"
+  option :comments, default: true, type: :boolean
+  option :cover_image, default: false, type: :boolean
+  option :editor, default: "subl"
+  option :open_editor, aliases: "-o", default: false, type: :boolean
   def new(*title)
     title = title.join(" ")
     layout = 'post'
@@ -26,6 +27,9 @@ class Post < Thor
       post.puts "---"
     end
 
-    system(options[:editor], filename)
+    puts "Created new draft post: #{filename}"
+
+    system(options[:editor], filename) if options[:open_editor]
+  end
   end
 end

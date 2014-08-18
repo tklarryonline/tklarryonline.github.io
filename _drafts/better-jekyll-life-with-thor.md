@@ -75,4 +75,39 @@ end
 {% endhighlight %}
 
 Now you can run the desire command `thor post:new` and watch it works.
+
+## Adding new behaviors
+
+### Open the new post in your favorite editor
+
+After creating a post, I usually open it in my favorite editor (which is `vim`) to start writing it.
+
+Let's also add that requirement to our `post.thor`:
+
+{% highlight ruby linenos %}
+require 'stringex'
+
+class Post < Thor
+
+  # ...
+  option :editor, default: "vim"
+  option :open_editor, aliases: "-o", default: false, type: :boolean
+  def new(*title)
+    # ...
+    system(options[:editor], filename) if options[:open_editor]
+  end
+end
+{% endhighlight %}
+
+Now use the two new options:
+
+```sh
+# Create a draft "No Editor" without open it in the default editor - 'vim'
+$ thor post:new "No Editor"
+
+# Create the post and open it with our default editor, which is 'vim'
+$ thor post:new "Hello default text editor" -o
+
+# Create the post and open it with our specified editor which is Sublime Text 2
+$ thor post:new "Hello Sublime!" -o --editor=subl
 ```
