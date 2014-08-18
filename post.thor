@@ -4,6 +4,8 @@ class Post < Thor
 
   desc "new", "Creates a new post"
   method_option :editor, default: "subl"
+  method_option :cover_image, default: "false"
+  method_option :comments, default: "true"
   def new(*title)
     title = title.join(" ")
     layout = 'post'
@@ -19,6 +21,8 @@ class Post < Thor
       post.puts "---"
       post.puts "layout: #{layout}"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "cover_image: #{options[:cover_image]}"
+      post.puts "comments: #{options[:comments]}"
       post.puts "---"
     end
 

@@ -7,32 +7,48 @@ comments: true
 ---
 
 ## What I want to achieve
-Using commands can create posts easily:
+
+Using command can create posts easily:
 
 ```sh
-$ thor post:new "Name of the post" # Create a draft post
+# Create a draft post: Jekyll life with Thor
+$ thor post:new "Jekyll life with Thor"
+```
+
+This command will create a draft post with these contents:
+
+```yaml
+---
+layout: post
+title: Jekyll life with Thor
+cover_image: false
+comments: true
+---
 ```
 
 ## Installations
 
 Add to `Gemfile`
 
-```ruby
+{% highlight ruby linenos %}
 gem 'thor'
 gem 'stringex'
-```
+{% endhighlight %}
 
 Run `bundle` (or `bundle install`) to install new depencies.
 
+## Creating new post automatically
+
 Create `post.thor` in project's root with the following contents
 
-```ruby
+{% highlight ruby linenos %}
 require 'stringex'
 
 class Post < Thor
 
   desc "new", "Creates a new post"
-  method_option :editor, default: "subl"
+  option :comments, default: true, type: :boolean
+  option :cover_image, default: false, type: :boolean
   def new(*title)
     title = title.join(" ")
     layout = 'post'
@@ -48,10 +64,15 @@ class Post < Thor
       post.puts "---"
       post.puts "layout: #{layout}"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "cover_image: #{options[:cover_image]}"
+      post.puts "comments: #{options[:comments]}"
       post.puts "---"
     end
 
-    system(options[:editor], filename)
+    puts "Created new draft post: #{filename}"
   end
 end
+{% endhighlight %}
+
+Now you can run the desire command `thor post:new` and watch it works.
 ```
