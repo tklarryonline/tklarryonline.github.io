@@ -1,0 +1,229 @@
+// Jekyll Pygments syntax highlighter styles
+
+// Colors
+$default:                  #FFFFFF
+$background:               #010101
+$comment:                  #586E75
+$error:                    #586E75
+$generic:                  #93A1A1
+$keyword:                  #859900
+$literal:                  #93A1A1
+$name:                     #93A1A1
+$operator:                 #859900
+$other:                    #CB4B16
+$punctuation:              #93A1A1
+$commentmultiline:         #586E75
+$commentpreproc:           #859900
+$commentsingle:            #586E75
+$commentspecial:           #859900
+$genericdeleted:           #2AA198
+$genericemph:              #93A1A1
+$genericerror:             #DC322F
+$genericheading:           #CB4B16
+$genericinserted:          #859900
+$genericoutput:            #93A1A1
+$genericprompt:            #93A1A1
+$genericstrong:            #93A1A1
+$genericsubheading:        #CB4B16
+$generictraceback:         #93A1A1
+$keywordconstant:          #CB4B16
+$keywordeclaration:        #268BD2
+$keywordnamespace:         #859900
+$keywordpseudo:            #859900
+$keywordreserved:          #268BD2
+$keywordtype:              #DC322F
+$literaldate:              #93A1A1
+$literalnumber:            #2AA198
+$literalstring:            #2AA198
+$nameattribute:            #93A1A1
+$namebuiltin:              #B58900
+$nameclass:                #268BD2
+$nameconstant:             #CB4B16
+$namedecorator:            #268BD2
+$nameentity:               #CB4B16
+$nameexception:            #CB4B16
+$namefunction:             #268BD2
+$namelabel:                #93A1A1
+$namenamespace:            #93A1A1
+$nameother:                #555555
+$nameproperty:             #93A1A1
+$nametag:                  #268BD2
+$namevariable:             #268BD2
+$operatorword:             #859900
+$textwhitespace:           #93A1A1
+$literalnumberfloat:       #2AA198
+$literalnumberhex:         #2AA198
+$literalnumberinteger:     #2AA198
+$literalnumberoct:         #2AA198
+$literalstringbacktick:    #586E75
+$literalstringchar:        #2AA198
+$literalstringdoc:         #93A1A1
+$literalstringdouble:      #2AA198
+$literalstringescape:      #CB4B16
+$literalstringheredoc:     #93A1A1
+$literalstringinterpol:    #2AA198
+$literalstringother:       #2AA198
+$literalstringregex:       #DC322F
+$literalstringsingle:      #2AA198
+$literalstringsymbol:      #2AA198
+$namebuiltinpseudo:        #268BD2
+$namevariableclass:        #268BD2
+$namevariableglobal:       #268BD2
+$namevariableinstance:     #268BD2
+$literalnumberintegerlong: #2AA198
+
+.highlight
+  font-family: Monaco, monospace
+  font-size: 1em
+  line-height: 1.6em
+  font-weight: bold
+  background: $background
+  color: $default
+
+  pre
+    padding: 1em
+
+  span.lineno
+    margin-right: 0.6em
+
+  code, pre
+    margin: 1em 0 1.5em 0
+
+  .c
+    color: $comment
+  .err
+    color: $error
+  .g
+    color: $generic
+  .k
+    color: $keyword
+  .l
+    color: $literal
+  .n
+    color: $name
+  .o
+    color: $operator
+  .x
+    color: $other
+  .p
+    color: $punctuation
+  .cm
+    color: $commentmultiline
+  .cp
+    color: $commentpreproc
+  .c1
+    color: $commentsingle
+  .cs
+    color: $commentspecial
+  .gd
+    color: $genericdeleted
+  .ge
+    color: $genericemph
+    font-style: italic
+  .gr
+    color: $genericerror
+  .gh
+    color: $genericheading
+  .gi
+    color: $genericinserted
+  .go
+    color: $genericoutput
+  .gp
+    color: $genericprompt
+  .gs
+    color: $genericstrong
+    font-weight: bold
+  .gu
+    color: $genericsubheading
+  .gt
+    color: $generictraceback
+  .kc
+    color: $keywordconstant
+  .kd
+    color: $keywordeclaration
+  .kn
+    color: $keywordnamespace
+  .kp
+    color: $keywordpseudo
+  .kr
+    color: $keywordreserved
+  .kt
+    color: $keywordtype
+  .ld
+    color: $literaldate
+  .m
+    color: $literalnumber
+  .s
+    color: $literalstring
+  .na
+    color: $nameattribute
+  .nb
+    color: $namebuiltin
+  .nc
+    color: $nameclass
+  .no
+    color: $nameconstant
+  .nd
+    color: $namedecorator
+  .ni
+    color: $nameentity
+  .ne
+    color: $nameexception
+  .nf
+    color: $namefunction
+  .nl
+    color: $namelabel
+  .nn
+    color: $namenamespace
+  .nx
+    color: $nameother
+  .py
+    color: $nameproperty
+  .nt
+    color: $nametag
+  .nv
+    color: $namevariable
+  .ow
+    color: $operatorword
+  .w
+    color: $textwhitespace
+  .mf
+    color: $literalnumberfloat
+  .mh
+    color: $literalnumberhex
+  .mi
+    color: $literalnumberinteger
+  .mo
+    color: $literalnumberoct
+  .sb
+    color: $literalstringbacktick
+  .sc
+    color: $literalstringchar
+  .sd
+    color: $literalstringdoc
+  .s2
+    color: $literalstringdouble
+  .se
+    color: $literalstringescape
+  .sh
+    color: $literalstringheredoc
+  .si
+    color: $literalstringinterpol
+  .sx
+    color: $literalstringother
+  .sr
+    color: $literalstringregex
+  .s1
+    color: $literalstringsingle
+  .ss
+    color: $literalstringsymbol
+  .bp
+    color: $namebuiltinpseudo
+  .vc
+    color: $namevariableclass
+  .vg
+    color: $namevariableglobal
+  .vi
+    color: $namevariableinstance
+  .il
+    color: $literalnumberintegerlong
