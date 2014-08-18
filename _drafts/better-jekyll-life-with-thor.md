@@ -111,3 +111,11 @@ $ thor post:new "Hello default text editor" -o
 # Create the post and open it with our specified editor which is Sublime Text 2
 $ thor post:new "Hello Sublime!" -o --editor=subl
 ```
+
+### Publish the draft post
+
+In Jekyll a post is considered published should:
+
+- Include publishing date and time
+- Be put in the `_posts/` folder
+- Be named in the exact format: `date-title.md`

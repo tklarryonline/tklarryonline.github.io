@@ -31,5 +31,8 @@ class Post < Thor
 
     system(options[:editor], filename) if options[:open_editor]
   end
+
+  desc "publish", "Publishes a draft post"
+  def publish(*title)
   end
 end
