@@ -1,7 +1,7 @@
 # Global config
 destination:      tklarryonline
 timezone:         Asia/Ho_Chi_Minh
-exclude:          [Gemfile, Gemfile.lock]
+exclude:          [Gemfile, Gemfile.lock, post.thor]
 encoding:         UTF-8
 
 # Serve commands
