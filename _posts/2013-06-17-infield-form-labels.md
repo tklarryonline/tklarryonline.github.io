@@ -1,7 +1,7 @@
 ---
 layout: post
 title: For better infield form's labels
-date: 2013-06-17 1:19:51
+date: "2013-06-17 1:19:51"
 excerpt: My little adventure to improve the usability of infield's labels.
 comments: true
 ---

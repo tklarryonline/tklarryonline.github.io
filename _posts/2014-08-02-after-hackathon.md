@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hackathon Vietnam afterthoughts
-date: 2014-08-02 21:33
+date: "2014-08-02 21:33"
 excerpt: A team of four, a small room and 20+ hours of hacking intensively.
 cover_image: true
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Switching to Jekyll
-date: 2013-06-16 12:00:16
+date: "2013-06-16 12:00:16"
 excerpt: from Wordpress and any other famous CMS(s).
 comments: true
 ---
