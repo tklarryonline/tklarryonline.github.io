@@ -79,7 +79,7 @@ class Post < Thor
 end
 {% endhighlight %}
 
-Now you can run the desire command `thor post:new` and watch it works.
+Now you can run the desire command `thor post:draft` and watch it works.
 
 ## Adding extra behaviors
 
