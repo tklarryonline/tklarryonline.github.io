@@ -199,7 +199,7 @@ body.blog {
     }
 
     p {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       line-height: 1.6;
     }
 
@@ -219,7 +219,8 @@ body.blog {
     }
 
     .post-signoff {
-      margin-top: 80px;
+      font-style: italic;
+      margin-top: 60px;
     }
   }
 
@@ -231,6 +232,7 @@ body.blog {
 
 #blog-post {
   .post {
+    margin-bottom: 0;
     margin-top: 0;
   }
 
@@ -239,9 +241,12 @@ body.blog {
 
     .post-title {
       font-size: 45px;
+      width: 800px;
     }
 
     .post-excerpt {
+      width: 800px;
+
       p {
         font-size: 26px;
       }
@@ -289,6 +294,10 @@ body.blog {
       &::moz-selection {
         @include text-selection;
       }
+    }
+
+    h2:not(:first-child) {
+      margin-top: 40px;
     }
   }
 }
