@@ -4,7 +4,9 @@ require 'fileutils'
 class Post < Thor
   include FileUtils
 
-  class_option :editor, default: "subl"
+  DEFAULT_EDITOR = "subl"
+
+  class_option :editor, default: DEFAULT_EDITOR
   class_option :open_editor, aliases: "-o", default: false, type: :boolean
 
   desc "draft TITLE", "Creates a new draft `TITLE` in `_drafts/`"
@@ -12,7 +14,7 @@ class Post < Thor
   option :cover_image, default: false, type: :boolean
   def draft(*title)
     title = title.join(" ")
-    layout = 'post'
+    layout = "post"
     filename = "_drafts/#{title.to_url}.md"
 
     # Create `_drafts/` if not exists
@@ -28,6 +30,7 @@ class Post < Thor
       post.puts "---"
       post.puts "layout: #{layout}"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+      post.puts "excerpt: \"\""
       post.puts "cover_image: #{options[:cover_image]}"
       post.puts "comments: #{options[:comments]}"
       post.puts "---"
@@ -35,7 +38,7 @@ class Post < Thor
 
     puts "Created new draft: #{filename}"
 
-    system(options[:editor], filename) if options[:open_editor]
+    open_editor(filename)
   end
 
   desc "publish FILE", "Publishes a draft `FILE`"
@@ -58,13 +61,13 @@ class Post < Thor
     f = File.open(original_file, 'r+')
     lines = f.readlines
 
-    date_yaml = "date: #{options[:date]} #{options[:time]}"
+    date_yaml = "date: \"#{options[:date]} #{options[:time]}\""
     lines.insert(1, date_yaml)
 
     new_filename = "_posts/#{options[:date]}-#{File.basename(original_file)}"
 
     if File.exists?(new_filename)
-      abort("#{filename} already exists!")
+      abort("#{new_filename} already exists!")
     end
 
     open(new_filename, 'w') do |post|
@@ -76,6 +79,14 @@ class Post < Thor
 
     puts "Published draft to #{new_filename}"
 
-    system(options[:editor], filename) if options[:open_editor]
+    open_editor(new_filename)
+  end
+
+  private
+
+  def open_editor(filename)
+    if options[:open_editor] || options[:editor] != DEFAULT_EDITOR
+      system(options[:editor], filename)
+    end
   end
 end
