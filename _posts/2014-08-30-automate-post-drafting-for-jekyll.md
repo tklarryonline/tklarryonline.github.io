@@ -21,7 +21,7 @@ comments: true
 
 This 'buffy' method could fit with a novice user whose needs are just writing and posting articles. Back then I didn't care how to use Jekyll `draft` functionality, until I needed to keep track of my drafts with Git... Manually creating drafts, finishing and publishing them to my blog starting to be a nuisance.
 
-Thankfully, the hammer of [Thor](http://whatisthor.com/) stroke down on me!
+Thankfully, the hammer of [Thor](http://whatisthor.com/) struck down on me!
 
 ## What I want to achive
 
