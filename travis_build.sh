@@ -29,7 +29,7 @@ fi
 
 # Builds my site
 echo "Starting to build..."
-bundle exec jekyll build
+bundle exec jekyll build --trace
 
 # Exit with appropriate exit code if jekyll failed
 if [ $? != 0 ]; then exit $?; fi
