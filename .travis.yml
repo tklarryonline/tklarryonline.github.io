@@ -1,4 +1,7 @@
 language: ruby
+
+# Does this in order to use Travis' new infrastructure
+sudo: false
 rvm: 2.1.0
 install: gem install jekyll
 script: ". ./travis_build.sh"
