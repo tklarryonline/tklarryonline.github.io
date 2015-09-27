@@ -2,6 +2,10 @@ language: ruby
 
 # Does this in order to use Travis' new infrastructure
 sudo: false
+
+# Well, has to cache this slow bundler
+cache: bundler
+
 rvm: 2.1.0
 install: gem install jekyll
 script: ". ./travis_build.sh"
