@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # This script is for use in travis-ci only.
+set -e # halt script on error
 
 # Only proceeds to deployment if this is the source branch
 # and not a pull request
@@ -26,11 +27,14 @@ if [ $? != 0 ]; then
     exit $?
 fi
 
-# Generate site from markdown source
-jekyll build
+# Builds my site
+echo "Starting to build..."
+bundle exec jekyll build
 
 # Exit with appropriate exit code if jekyll failed
 if [ $? != 0 ]; then exit $?; fi
+
+echo "Build ran correctly. Starting deployment..."
 
 # Goes to jekyll destination
 cd $production_path
