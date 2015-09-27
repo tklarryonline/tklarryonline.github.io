@@ -19,7 +19,13 @@ production_path=$source_path/tklarryonline
 production_repo=https://github.com/tklarryonline/tklarryonline.github.io.git
 
 # Clones the current site to corresponding dir
-git clone $production_repo --branch master --single-branch $production_path
+git clone $production_repo --branch master --single-branch $production_path > /dev/null 2>&1
+
+# If git clone failed
+if [ $? != 0 ]; then
+    echo "Cloning production repo failed!"
+    exit $?
+fi
 
 # Generate site from markdown source
 jekyll build
@@ -28,7 +34,7 @@ jekyll build
 if [ $? != 0 ]; then exit $?; fi
 
 # Goes to jekyll destination
-cd tklarryonline
+cd $production_path
 
 # Adds all the new changes and commits them
 git add -am "Build #$TRAVIS_BUILD_NUMBER"
