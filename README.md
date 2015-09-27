@@ -1,5 +1,3 @@
-# My Blog Source
+# tklarryonline.me
 
-This is the source of my blog. Since I decided to use SASS, the need of separate source and site came.
-
-So yay! Welcome to my blog's source!
+[![Build Status](https://travis-ci.org/tklarryonline/tklarryonline.github.io.svg)](https://travis-ci.org/tklarryonline/tklarryonline.github.io)
