@@ -12,3 +12,7 @@ Thumbs.db
 
 *.log
 .idea
+
+# Ignores my Travis CI build keys
+.deploy_key
+.deploy_key.pub

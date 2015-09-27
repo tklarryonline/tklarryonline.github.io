@@ -49,6 +49,9 @@ GEM
     pygments.rb (0.5.4)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rake (10.4.2)
+    rake-jekyll (1.1.0)
+      rake (~> 10.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -76,6 +79,11 @@ DEPENDENCIES
   jekyll
   jekyll-haml
   jekyll-sass
+  rake
+  rake-jekyll
   rdiscount
   stringex
   thor
+
+BUNDLED WITH
+   1.10.6

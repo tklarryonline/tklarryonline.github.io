@@ -1,0 +1,7 @@
+language: ruby
+sudo: false
+rvm: 2.1.0
+script: bundle exec rake deploy
+before_install:
+  - openssl aes-256-cbc -K $encrypted_e9c8ab5869f3_key -iv $encrypted_e9c8ab5869f3_iv -in .deploy_key.enc -out .deploy_key -d
+  - chmod 600 .deploy_key
