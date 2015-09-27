@@ -16,7 +16,7 @@ git config --global user.name "Luan & Travis"
 
 source_path=`pwd`
 production_path=$source_path/tklarryonline
-production_repo=git@github.com:tklarryonline/tklarryonline.github.io.git
+production_repo=https://github.com/tklarryonline/tklarryonline.github.io.git
 
 # Clones the current site to corresponding dir
 git clone $production_repo --branch master --single-branch $production_path
