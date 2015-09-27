@@ -1,19 +1,18 @@
 language: ruby
+rvm: 2.1.0
 
 # Does this in order to use Travis' new infrastructure
 sudo: false
 
-# Well, has to cache this slow bundler
-cache: bundler
-
-rvm: 2.1.0
-install:
-  - gem install jekyll
-  - bundle
-script: ". ./travis_build.sh"
-before_install:
-  - openssl aes-256-cbc -K $encrypted_e9c8ab5869f3_key -iv $encrypted_e9c8ab5869f3_iv -in .deploy_key.enc -out .deploy_key -d
-  - chmod 600 .deploy_key
 branches:
   except:
     - master
+
+# Well, has to cache this slow bundler
+cache: bundler
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_e9c8ab5869f3_key -iv $encrypted_e9c8ab5869f3_iv -in .deploy_key.enc -out .deploy_key -d
+  - chmod 600 .deploy_key
+
+script: ". ./travis_build.sh"
