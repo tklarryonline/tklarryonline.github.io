@@ -4,7 +4,6 @@
 # Only proceeds to deployment if this is the source branch
 # and not a pull request
 if [ "$TRAVIS_BRANCH" != source ] || [ "$TRAVIS_PULL_REQUEST" != false ]; then
-    echo "Jekyll build finished successfully. Your mom should be proud."
     exit 0
 fi
 
