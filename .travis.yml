@@ -16,3 +16,7 @@ before_install:
   - chmod 600 .deploy_key
 
 script: ". ./travis_build.sh"
+env:
+  global:
+    - GH_REPO: github.com/tklarryonline/tklarryonline.github.io.git
+    - secure: "Ny1FgdVjW0W6++X5UPP3Zuw399u6OiaN2wtbJL2zwHgWHxlp7uVU4pa6vSyDZXlMkq0NSCZBBXx6V4f54HYRmPsNgEGSTcBUW6/WTgluCyXpyLds0pvTp3UlmKCs0aP3kU5ikIuvvWUtiBp980KsVX3TlW6MDUtoaxqmDVRJkFk="
