@@ -40,7 +40,7 @@ echo "Build ran correctly. Starting deployment..."
 cd $production_path
 
 # Adds all the new changes and commits them
-git add -am "Build #$TRAVIS_BUILD_NUMBER"
+git add -A && git commit -m "Build #$TRAVIS_BUILD_NUMBER"
 
 # Andddd pushes!
 git push origin master
