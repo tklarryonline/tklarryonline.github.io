@@ -43,4 +43,4 @@ cd $production_path
 git add -A && git commit -m "Build #$TRAVIS_BUILD_NUMBER"
 
 # Andddd pushes!
-git push origin master
+git push origin master > /dev/null 2>$1
