@@ -23,3 +23,6 @@ env:
 
 notifications:
   email: false
+  slack:
+    on_success: always
+    on_failure: always
