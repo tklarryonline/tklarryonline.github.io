@@ -12,17 +12,17 @@ branches:
 cache: bundler
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_e9c8ab5869f3_key -iv $encrypted_e9c8ab5869f3_iv -in .deploy_key.enc -out .deploy_key -d
+  - openssl aes-256-cbc -K $encrypted_e9c8ab5869f3_key -iv $encrypted_e9c8ab5869f3_iv
+    -in .deploy_key.enc -out .deploy_key -d
   - chmod 600 .deploy_key
 
 script: ". ./travis_build.sh"
 env:
   global:
     - GH_REPO: github.com/tklarryonline/tklarryonline.github.io.git
-    - secure: "Ny1FgdVjW0W6++X5UPP3Zuw399u6OiaN2wtbJL2zwHgWHxlp7uVU4pa6vSyDZXlMkq0NSCZBBXx6V4f54HYRmPsNgEGSTcBUW6/WTgluCyXpyLds0pvTp3UlmKCs0aP3kU5ikIuvvWUtiBp980KsVX3TlW6MDUtoaxqmDVRJkFk="
+    - secure: Ny1FgdVjW0W6++X5UPP3Zuw399u6OiaN2wtbJL2zwHgWHxlp7uVU4pa6vSyDZXlMkq0NSCZBBXx6V4f54HYRmPsNgEGSTcBUW6/WTgluCyXpyLds0pvTp3UlmKCs0aP3kU5ikIuvvWUtiBp980KsVX3TlW6MDUtoaxqmDVRJkFk=
 
 notifications:
   email: false
   slack:
-    on_success: always
-    on_failure: always
+    secure: CGMwycbXwrlOJkdA0ErqCnqUdnyuCfS8EyWBWj+jmoCDz0wo8SneFXmyPCBLAAFX531cHpoJmkdEyWUFZI5qqLb1b+Ts810SIaYb27sj9FQ/bXoGT7w5E55Jmh3YS0IlOWiazKIq0ttiXJcz6q1aD8hehMM/BlWkCLzCzSD2FQ8=
