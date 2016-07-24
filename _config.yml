@@ -58,10 +58,11 @@ home-main-links:
     url:          mailto:luan@tklarryonline.me
     description:  talk to me
 
-pygments:         true
 permalink:        /blog/:title/
-markdown:         redcarpet
+markdown:         kramdown
+highlighter:      rouge
 
 sass:
     syntax: scss
+    sass_dir: stylesheets/_sass
     style: compressed
