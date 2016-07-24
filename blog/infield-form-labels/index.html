@@ -40,7 +40,7 @@
 <!-- @TODO add include ga.html -->
 
   </head>
-  <body class="blog-post">
+  <body class="">
     <div class="unselectable" id="slide-nav">
   <ul>
     
@@ -84,7 +84,7 @@
 
     <div class="main-container container-fluid">
       <a href="#slide-nav" id="nav-toggle">&#9776;</a>
-      <div id="blog-post" class="content">
+      <div id="" class="content">
         <div class="post">
   
   <div class="post-header">
@@ -95,21 +95,21 @@
         <span class="datetime muted" data-time="2013-06-17 01:19:51 +0700">17 Jun 2013</span>
       </div>
       <h1 class="post-title"><a href="/blog/infield-form-labels/">For better infield form's labels</a></h1>
-      <div class="post-excerpt"><p>My little adventure to improve the usability of infield&#39;s labels.</p>
+      <div class="post-excerpt"><p>My little adventure to improve the usability of infield’s labels.</p>
 </div>
     </div>
   </div>
   <div class="post-content center-block">
-    <p>I have been searching for decades on how to increase the usability of form-field&#39;s label. Thus, reading this post about <a href="http://viget.com/inspire/making-infield-form-labels-suck-less"><strong>Making Infield Form Labels Suck Less</strong></a> inspired me.</p>
+    <p>I have been searching for decades on how to increase the usability of form-field’s label. Thus, reading this post about <a href="http://viget.com/inspire/making-infield-form-labels-suck-less"><strong>Making Infield Form Labels Suck Less</strong></a> inspired me.</p>
 
-<p>I myself would prefer a form with field&#39;s label positioned above the field, left-indented. And the placeholder text inside the field would tell briefly what should be filled. Those together would probably bring the feeling of step-by-step, what-to-do towards the form.</p>
+<p>I myself would prefer a form with field’s label positioned above the field, left-indented. And the placeholder text inside the field would tell briefly what should be filled. Those together would probably bring the feeling of step-by-step, what-to-do towards the form.</p>
 
-<p>However, using just the placeholder text are not really usable. There will be some use-cases that the user clicks on the field, placeholder text disappear and... our fellow user has to rely on their short-term memory to figure out what to do.</p>
+<p>However, using just the placeholder text are not really usable. There will be some use-cases that the user clicks on the field, placeholder text disappear and… our fellow user has to rely on their short-term memory to figure out what to do.</p>
 
 <p>From the post I learned some great ways to attack the problem in term of UX. And finally felt interested in the solution idea:</p>
 
 <blockquote>
-<p>We ended up using the tooltip approach, placing labels above their input once the input has focus. We liked this approach because the active input labels are clearly distinct from other form elements, and the same approach can be used when the design scales down to smaller screens.</p>
+  <p>We ended up using the tooltip approach, placing labels above their input once the input has focus. We liked this approach because the active input labels are clearly distinct from other form elements, and the same approach can be used when the design scales down to smaller screens.</p>
 </blockquote>
 
 <p>The <a href="http://viget.com/inspire/making-infield-form-labels-suck-less-2"><em>actual implementation</em></a> of this solution, surprisingly, was not as good as I expected. The label (as a tooltip) displayed and obscured the field above, which to me is not a good appeal. One thing that may help to overcome this problem, is to decrease the opacity a little bit to show the field above. Not right-into-the-eyes, but yet visually okay.</p>
