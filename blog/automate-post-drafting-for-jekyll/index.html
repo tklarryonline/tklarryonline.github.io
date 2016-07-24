@@ -17,7 +17,6 @@
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <!-- internal's -->
 <link href='/stylesheets/third-parties/bootstrap.min.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/third-parties/syntax.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/third-parties/solarized_syntax.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/third-parties/jquery.pageslide.css' rel='stylesheet' type='text/css' />
 <link href='/stylesheets/main.css' rel='stylesheet' type='text/css' />
@@ -40,7 +39,7 @@
 <!-- @TODO add include ga.html -->
 
   </head>
-  <body class="">
+  <body class="blog-post">
     <div class="unselectable" id="slide-nav">
   <ul>
     
@@ -84,32 +83,39 @@
 
     <div class="main-container container-fluid">
       <a href="#slide-nav" id="nav-toggle">&#9776;</a>
-      <div id="" class="content">
+      <div id="blog-post" class="content">
         <div class="post">
-  
-  <div class="post-header">
-  
-    <div class="post-header-contents center-block">
-      <div class="posted-date">
-        written
-        <span class="datetime muted" data-time="2014-08-30 01:47:59 +0700">30 Aug 2014</span>
-      </div>
-      <h1 class="post-title"><a href="/blog/automate-post-drafting-for-jekyll/">Automate post drafting for Jekyll</a></h1>
-      <div class="post-excerpt"><p>Thor - the God of Thunder - has come to the rescue!</p>
+          
+          <div class="post-header">
+          
+            <div class="post-header-contents center-block">
+              <div class="posted-date">
+                written
+                <span class="datetime muted" data-time="2014-08-30 01:47:59 +0700">30 Aug 2014</span>
+              </div>
+              <h1 class="post-title"><a href="/blog/automate-post-drafting-for-jekyll/">Automate post drafting for Jekyll</a></h1>
+              <div class="post-excerpt"><p>Thor - the God of Thunder - has come to the rescue!</p>
 </div>
-    </div>
-  </div>
-  <div class="post-content center-block">
-    <p>Since the very first day of using Jekyll, I’ve always been creating post by manually create the Markdown file with those meta data:</p>
+            </div>
+          </div>
+          <div class="post-content center-block">
+            <p>Since the very first day of using Jekyll, I’ve always been creating post by manually create the Markdown file with those meta data:</p>
 
-<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="nn">---</span>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td><td class="code"><pre><span class="nn">---</span>
 <span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
 <span class="s">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Automate</span><span class="nv"> </span><span class="s">post</span><span class="nv"> </span><span class="s">drafting</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">Jekyll"</span>
 <span class="s">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Thor</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">God</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">Thunder</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">comes</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">rescue!"</span>
 <span class="s">cover_image</span><span class="pi">:</span> <span class="s">false</span>
 <span class="s">comments</span><span class="pi">:</span> <span class="s">true</span>
 <span class="nn">---</span>
-</code></pre>
+</pre></td></tr></tbody></table>
+</div>
 </div>
 
 <p>This ‘buffy’ method could fit with a novice user whose needs are just writing and posting articles. Back then I didn’t care how to use Jekyll <code class="highlighter-rouge">draft</code> functionality, until I needed to keep track of my drafts with Git… Manually creating drafts, finishing and publishing them to my blog starting to be a nuisance.</p>
@@ -120,37 +126,48 @@
 
 <p>This article main purposes are to introduce you to <a href="http://whatisthor.com/">Thor</a> and write a little command line task to automatically create draft with desired options using only one command:</p>
 
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="c"># Creates a draft: Hello Jekyll</span>
+<div class="language-sh highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2</pre></td><td class="code"><pre><span class="c"># Creates a draft: Hello Jekyll</span>
 <span class="gp">$ </span>thor post:draft Hello Jekyll
-</code></pre>
+</pre></td></tr></tbody></table>
+</div>
 </div>
 
 <p>This command will create a draft <code class="highlighter-rouge">_drafts/hello-jekyll.md</code> with these data:</p>
 
-<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="nn">---</span>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td><td class="code"><pre><span class="nn">---</span>
 <span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
 <span class="s">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Hello</span><span class="nv"> </span><span class="s">Jekyll"</span>
 <span class="s">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
 <span class="s">cover_image</span><span class="pi">:</span> <span class="s">false</span>
 <span class="s">comments</span><span class="pi">:</span> <span class="s">true</span>
 <span class="nn">---</span>
-</code></pre>
+</pre></td></tr></tbody></table>
+</div>
 </div>
 
 <h2 id="how-to-do-that">How to do that?</h2>
 
 <p>Add the required gems to your <code class="highlighter-rouge">Gemfile</code>:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<div class="language-ruby highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2</pre></td><td class="code"><pre><span class="n">gem</span> <span class="s1">'thor'</span>
-<span class="n">gem</span> <span class="s1">'stringex'</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+<span class="n">gem</span> <span class="s1">'stringex'</span>
+</pre></td></tr></tbody></table>
+</div>
+</div>
 
 <p>And run <code class="highlighter-rouge">bundle</code> (or <code class="highlighter-rouge">bundle install</code>).</p>
 
 <p>Then create <code class="highlighter-rouge">post.thor</code> in your Jekyll’s source root:</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+<div class="language-ruby highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
 2
 3
 4
@@ -252,12 +269,25 @@
       <span class="nb">system</span><span class="p">(</span><span class="n">options</span><span class="p">[</span><span class="ss">:editor</span><span class="p">],</span> <span class="n">filename</span><span class="p">)</span>
     <span class="k">end</span>
   <span class="k">end</span>
-<span class="k">end</span><span class="w">
-</span></pre></td></tr></tbody></table></code></pre></figure>
+<span class="k">end</span>
+</pre></td></tr></tbody></table>
+</div>
+</div>
 
 <p>Now you can try your new command <code class="highlighter-rouge">thor post:draft</code> out and watch it works.</p>
 
-<div class="language-sh highlighter-rouge"><pre class="highlight"><code><span class="c"># Create a draft with default meta data</span>
+<div class="language-sh highlighter-rouge"><div class="highlight"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12</pre></td><td class="code"><pre><span class="c"># Create a draft with default meta data</span>
 <span class="gp">$ </span>thor post:draft Hello Jekyll
 
 <span class="c"># Create a draft and automatically open it in your favorite editor</span>
@@ -269,25 +299,26 @@
 
 <span class="c"># Don't want your draft to have comments enabled?</span>
 <span class="gp">$ </span>thor post:draft Hello Jekyll --no-comments
-</code></pre>
+</pre></td></tr></tbody></table>
+</div>
 </div>
 
 <h2 id="afterthoughts">Afterthoughts</h2>
 
 <p>Drafts need to be published. Using this as the starting point, you may want to write another Thor task to publish your drafts with date and time. Sooner or later, I would write another blog post about publishing drafts and refactoring my Thor tasks.</p>
 
-<p>Furthermore, this post is not limitted to only Jekyll. Any other static site generators that use Markdown (or text-based post) can also use Thor to improve their blogging flow.</p>
+<p>Furthermore, this post is not limited to only Jekyll. Any other static site generators that use Markdown (or text-based post) can also use Thor to improve their blogging flow.</p>
 
-    <div class="post-signoff"><p>
+            <div class="post-signoff"><p>
   Till next time ;)<br/>
   Luan Nguyen Thanh<br/>
   <span class="muted">01:47 AM</span>
 </p>
 </div>
-  </div>
-</div>
+          </div>
+        </div>
 
-
+        
 <div class="block disqus-thread-container">
   <div id="disqus_thread" class="center-block"></div>
   <script type="text/javascript">
@@ -301,10 +332,8 @@
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
-
       </div>
     </div>
-    
     <footer>
   <div id="footer" class="center-block general-wrapper720 text-center">
     <p>
@@ -340,7 +369,6 @@
   </div>
 </footer>
 
-    
     <script src='/javascripts/jquery.pageslide.min.js' type='text/javascript'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js' type='text/javascript'></script>
 <script src='/javascripts/main.js' type='text/javascript'></script>
