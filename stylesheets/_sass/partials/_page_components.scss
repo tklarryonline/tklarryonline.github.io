@@ -403,3 +403,27 @@ footer {
     }
   }
 }
+
+.highlight {
+    *::selection {
+        background: rgba(253, 246, 227, 0.99);
+    }
+
+    pre {
+        background: $solarized-base03;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .gutter {
+        background: $solarized-base02;
+        padding-right: 10px;
+        width: 40px;
+
+        .lineno {
+            background: $solarized-base02;
+            padding: 0;
+        }
+    }
+}

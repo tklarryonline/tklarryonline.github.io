@@ -1,29 +1,48 @@
 ---
-layout: index
-class: blog-post
 ---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      {% if page.title %}
+      {{ page.title}} -
+      {% endif %}
+      {{ site.title }}
+    </title>
+    {% include head.html %}
+  </head>
+  <body class="blog-post">
+    {% include navigation.html %}
+    <div class="main-container container-fluid">
+      <a href="#slide-nav" id="nav-toggle">&#9776;</a>
+      <div id="blog-post" class="content">
+        <div class="post">
+          {% if page.cover_image %}
+          <div class="post-header with-cover-image"
+              style="background: url('/files{{ page.id }}/cover_image.jpg') #073642 no-repeat fixed top/cover;">
+              <div class="background-dim dim-by-base-color"></div>
+          {% else %}
+          <div class="post-header">
+          {% endif %}
+            <div class="post-header-contents center-block">
+              <div class="posted-date">
+                written
+                <span class="datetime muted" data-time="{{ page.date }}">{{ page.date | date_to_string }}</span>
+              </div>
+              <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+              <div class="post-excerpt">{{ page.excerpt | markdownify }}</div>
+            </div>
+          </div>
+          <div class="post-content center-block">
+            {{ content }}
+            <div class="post-signoff">{% include signoff.html %}</div>
+          </div>
+        </div>
 
-<div class="post">
-  {% if page.cover_image %}
-  <div class="post-header with-cover-image"
-      style="background: url('/files{{ page.id }}/cover_image.jpg') #073642 no-repeat fixed top/cover;">
-      <div class="background-dim dim-by-base-color"></div>
-  {% else %}
-  <div class="post-header">
-  {% endif %}
-    <div class="post-header-contents center-block">
-      <div class="posted-date">
-        written
-        <span class="datetime muted" data-time="{{ page.date }}">{{ page.date | date_to_string }}</span>
+        {% include disqus.html %}
       </div>
-      <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
-      <div class="post-excerpt">{{ page.excerpt | markdownify }}</div>
     </div>
-  </div>
-  <div class="post-content center-block">
-    {{ content }}
-    <div class="post-signoff">{% include signoff.html %}</div>
-  </div>
-</div>
-
-{% include disqus.html %}
+    {% include footer.html %}
+    {% include footer_script.html %}
+  </body>
+</html>

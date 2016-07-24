@@ -1,5 +1,6 @@
 ---
 layout: post
+class: blog-post
 title: "Automate post drafting for Jekyll"
 excerpt: "Thor - the God of Thunder - has come to the rescue!"
 date: "2014-08-30 1:47:59"
@@ -48,16 +49,16 @@ comments: true
 
 Add the required gems to your `Gemfile`:
 
-{% highlight ruby linenos %}
+```ruby
 gem 'thor'
 gem 'stringex'
-{% endhighlight %}
+```
 
 And run `bundle` (or `bundle install`).
 
 Then create `post.thor` in your Jekyll's source root:
 
-{% highlight ruby linenos %}
+```ruby
 # post.thor
 require 'stringex'
 require 'fileutils'
@@ -110,7 +111,7 @@ class Post < Thor
     end
   end
 end
-{% endhighlight %}
+```
 
 Now you can try your new command `thor post:draft` out and watch it works.
 
@@ -133,4 +134,4 @@ $ thor post:draft Hello Jekyll --no-comments
 
 Drafts need to be published. Using this as the starting point, you may want to write another Thor task to publish your drafts with date and time. Sooner or later, I would write another blog post about publishing drafts and refactoring my Thor tasks.
 
-Furthermore, this post is not limitted to only Jekyll. Any other static site generators that use Markdown (or text-based post) can also use Thor to improve their blogging flow.
+Furthermore, this post is not limited to only Jekyll. Any other static site generators that use Markdown (or text-based post) can also use Thor to improve their blogging flow.
